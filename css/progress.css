@@ -1,0 +1,179 @@
+body{
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+.container{
+  height: 2100px;
+  background-image: url("/images/progress.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 110%;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.hove{
+  border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.7s;
+    line-height: 110px;
+    width: 0px;
+    font-weight: bold;
+}
+
+/* .hove{
+  border: none;
+  background: none;
+  outline: none;
+   padding: 0;
+   color:black;
+} */
+
+div.circle1{
+  position: absolute;
+  left: 650px; 
+  top: 180px; 
+  background: #2f3640;
+  transform: translate(-40%, -50%);
+  border-radius: 70px;
+  transition: 1s;
+}
+.circle1:hover > .hove{
+  width: 150px;
+  height: 0 3px;
+}
+.circle{
+  width: 120px;
+  height: 120px;
+}
+div.circle2{
+  left: 400px; 
+  top: 240px; 
+  position: absolute;
+  background: white;
+  transform: translate(-40%, -50%);
+  transition: 1s;
+  background: #2f3640;
+  border-radius: 70px;
+}
+.circle2:hover > .hove{
+  width: 150px;
+  height: 0 3px;
+}
+div.circle3{
+  left: 1000px; 
+  top: 400px; 
+  position: absolute;
+  background: white;
+  transform: translate(-40%, -50%);
+  transition: 1s;
+  background: #2f3640;
+  border-radius: 70px;
+}
+.circle3:hover > .hove{
+  width: 130px;
+  height: 0 3px;
+}
+div.circle4{
+  left: 300px; 
+  top: 520px; 
+  position: absolute;
+  background: white;
+  transform: translate(-40%, -50%);
+  transition: 1s;
+  background: #2f3640;
+  border-radius: 70px;
+}
+.circle4:hover > .hove{
+  width: 130px;
+  height: 0 3px;
+}
+div.circle5{
+  left: 550px; 
+  top: 750px; 
+  position: absolute;
+  background: white;
+  transform: translate(-50%, -50%);
+  transition: 1s;
+  background: #2f3640;
+  border-radius: 70px;
+}
+.circle5:hover > .hove{
+  width: 130px;
+  height: 0 3px;
+}
+div.circle6{
+  left: 1000px; 
+  top: 850px; 
+  position: absolute;
+  background: white;
+  transform: translate(-50%, -50%);
+  transition: 1s;
+  background: #2f3640;
+  border-radius: 70px;
+}
+.circle6:hover > .hove{
+  width: 130px;
+  height: 0 3px;
+}
+div.circle7{
+  left: 380px; 
+  top: 1060px; 
+  position: absolute;
+  background: white;
+  transform: translate(-50%, -50%);
+  transition: 1s;
+  background: #2f3640;
+  border-radius: 70px;
+}
+.circle7:hover > .hove{
+  width: 130px;
+  height: 0 3px;
+}
+div.circle8{
+  left: 540px; 
+  top: 1400px; 
+  position: absolute;
+  background: white;
+  transform: translate(-50%, -50%);
+  transition: 1s;
+  background: #2f3640;
+  border-radius: 70px;
+}
+.circle8:hover > .hove{
+  width: 130px;
+  height: 0 3px;
+}
+div.circle9{
+  left: 130px; 
+  top: 1600px; 
+  position: absolute;
+  background: white;
+  transform: translate(-50%, -50%);
+  transition: 1s;
+  background: #2f3640;
+  border-radius: 70px;
+}
+.circle9:hover > .hove{
+  width: 130px;
+  height: 0 3px;
+}
+div.circle0{
+  left: 1020px; 
+  top: 1800px; 
+  position: absolute;
+  background: white;
+  transform: translate(-50%, -50%);
+  transition: 1s;
+  background: #2f3640;
+  border-radius: 70px;
+}
+.circle0:hover > .hove{
+  width: 100px;
+  height: 0 3px;
+}

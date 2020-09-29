@@ -1,0 +1,40 @@
+body{
+    margin: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color:#97B28B ;
+}
+div.blackboard{
+    float: right;
+    /* background-size: cover; */
+    background-color: red;
+    max-height: 450px;
+    max-width: 600px;
+}
+.black{
+    margin: 60px auto;
+    margin-right: -105px;
+    float: right;
+    max-height: 700px;
+    max-width: 800px;
+}
+/* .character{
+    height: 500px;
+    width: 300px;
+} */
+
+div.character{
+    /* margin-left: 100px; */
+    background-color: red;
+    float: left;
+    max-height: 500px;
+    max-width: 580px;
+}
+.einstine{
+    /* margin-top: 450px; */
+    max-height: 450px;
+    max-width: 450px;
+
+}
+
+  
