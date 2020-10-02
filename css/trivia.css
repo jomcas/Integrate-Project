@@ -2,22 +2,34 @@ body{
     margin: auto;
     /* overflow-x: hidden; */
     overflow-y: hidden;
-    background-color:#97B28B ;
+    background-color:#97B28B;
 }
 h1{
     margin-top: 200px;
     text-align: center;
+    color: white;
 }
 .btn_next{
     margin-top: 10px;
     margin-right: 30px;
     float: right;
     height: 50px;
+    border-radius: 12px;
+    background-color: green;
+    color: white;
+    width: 10%;
+      font-size: 16px;
+    
 }
 .btnback{
     margin-top: 10px;
     margin-left: 30px;
     height: 50px;
+    border-radius: 12px;
+    background-color: green;
+    color: white;
+    width: 10%;
+    font-size: 16px;
 }
 .sr{
     width: 600px;
@@ -26,7 +38,6 @@ h1{
 .blackboard{
     background: url(/images/black.PNG);
     background-size: 680px 555px;
-    /* background-size: auto; */
     background-repeat: no-repeat;
 }
 
@@ -43,35 +54,5 @@ div.blackboard{
 
 }
 
-
-/* div.blackboard{
-    float: right;
-    background-size: cover;
-    background-color: red;
-    max-height: 450px;
-    max-width: 600px;
-}
-.black{
-    margin: 60px auto;
-    margin-right: -105px;
-    float: right;
-    max-height: 700px;
-    max-width: 800px;
-}
-
-
-div.character{
-    margin-left: 100px;
-    background-color: red;
-    float: left;
-    max-height: 500px;
-    max-width: 580px;
-}
-.einstine{
-    margin-top: 450px;
-    max-height: 450px;
-    max-width: 450px;
-
-} */
 
   
