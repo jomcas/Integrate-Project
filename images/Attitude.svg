@@ -18,7 +18,7 @@
     <clipPath id="clip-path-6">
       <path id="Path_762" data-name="Path 762" d="M19403.1,7002.525s-1.508,1.7-16.682,2.7-28.492-4.106-44.02,1.283-12.158,8.95-21.943,11.935-16.939.128-17.2,0,8.084-23.87,8.084-23.87l90.984-1.668Z" transform="translate(-19303.256 -6992.9)" fill="none"/>
     </clipPath>
-    <filter id="Attitude_towards_Language_Literacy_and_Literature" x="62.379" y="70.442" width="696" height="55" filterUnits="userSpaceOnUse">
+    <filter id="Language_and_Literature" x="147.379" y="54.442" width="540" height="82" filterUnits="userSpaceOnUse">
       <feOffset dy="3" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="3" result="blur"/>
       <feFlood flood-opacity="0.161"/>
@@ -64,7 +64,7 @@
   <g id="Mask_Group_16" data-name="Mask Group 16" transform="translate(613.471 122.439)" clip-path="url(#clip-path-6)">
     <path id="Path_761" data-name="Path 761" d="M89.933,2.937C84.52-2.674,86.12-5.955,65.426-5.955S18.669-9.441,4.3-1.471s-10.6,24.993,3.653,27.4c6.2,1.045,10.476-14.311,19.3-17.783,10.944-4.306,26.575,2.573,34.049,0C74.533,3.587,95.346,8.548,89.933,2.937Z" transform="translate(9.843 8.577)" fill="#fff"/>
   </g>
-  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Attitude_towards_Language_Literacy_and_Literature)">
-    <text id="Attitude_towards_Language_Literacy_and_Literature-2" data-name="Attitude towards Language, Literacy, and Literature" transform="translate(410.38 106.44)" fill="#fff" font-size="28" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-338.14" y="0">Attitude towards Language, Literacy, and Literature</tspan></text>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Language_and_Literature)">
+    <text id="Language_and_Literature-2" data-name="Language and Literature" transform="translate(417.38 111.44)" fill="#fff" stroke="#fff" stroke-width="2" font-size="45" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-258.245" y="0">Language and Literature</tspan></text>
   </g>
 </svg>

@@ -3,7 +3,7 @@ body{
     overflow-x: hidden;
 }
 #pics1{
-  height: 130px;
+  height: 110px;
 }
 .btn_back{
     margin-top: 20px;
@@ -21,7 +21,7 @@ body{
 }.container{
     height: 1598px;
     width: 1265px;
-    background-image: url("/images/Filipino\ Background.svg");
+    background-image: url("/images/Filipino\ Bg.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -30,7 +30,7 @@ body{
   .topics{
     margin: auto;
     width: 65%;
-    padding: 30px;
+    padding: 50px;
   }    
   .pics{
     display: inline-block;

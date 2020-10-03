@@ -3,7 +3,7 @@ body{
     overflow-x: hidden;
 }
 #pics1{
-    height: 195px;
+    height: 130px;
   }
 .btn_back{
     margin-top: 20px;
@@ -21,10 +21,9 @@ body{
 }
 
 .container{
-    height: 2000px;
+    height: 1500px;
     width: 1265px;
-    background-image: url("/images/Math\ Background.svg");
-    background-position: center;
+    background-image: url("/images/Math\ Bg.svg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
@@ -32,7 +31,7 @@ body{
   .topics{
     margin: auto;
     width: 75%;
-    padding: 75px;
+    padding: 30px;
   }
   .pics {
     display: inline-block;
