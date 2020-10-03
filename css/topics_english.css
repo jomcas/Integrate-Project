@@ -3,7 +3,7 @@ body{
     /* overflow-x: hidden; */
 }
 .less{
-margin-left: -25px;
+  margin-left: -3%;
 margin-top: -30px;
 }
 
@@ -25,9 +25,11 @@ margin-top: -30px;
     float: right;
     font-family: 'Segoe UI';
     font-weight: bold;    
-}.container{
+
+}
+.container{
     height: 1598px;
-    width: 1263px;
+    width: 100%;
     background-image: url("/images/Ice\ Background.svg");
     background-repeat: no-repeat;
     background-attachment: scroll;
