@@ -1,14 +1,17 @@
 body{
+    margin-top: 0;
     margin-right: 0;
     overflow-x: hidden;
     overflow-y: hidden;
-    display: block;
-    background-color: #C1D6C2;
+    background: url(/images/classroom_bg.svg);
+    background-repeat: no-repeat;
+    /* width: 10px; */
+    background-size: 100%;
 }
 div.board{
     float: left;
-    max-height: 500px;
-    max-width: 580px;
+    max-height: 750px;
+    max-width: 590px;
 }
 .board{
    max-width: 110%;
@@ -24,7 +27,6 @@ div.board{
 .subject{
     max-width: 100%;
     max-height: 100%;
-    
 }   
 .subject:hover{
     transform:  translate(-15%);
