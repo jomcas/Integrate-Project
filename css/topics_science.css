@@ -3,11 +3,11 @@ body{
     overflow-x: hidden;
 }
 .btn_back{
-  margin-top: 20px;
-  margin-right: 30px;
-  height: 60px;
-  border-radius: 45px;
-  border-width: 5px;
+    margin-top: 20px;
+    margin-right: 30px;
+    height: 60px;
+    border-radius: 45px;
+    border-width: 5px;
     border-color: #671192;
     background-color: #AB04B7;
     color: white;

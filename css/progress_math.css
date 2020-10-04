@@ -26,18 +26,10 @@ body{
     font-weight: bold;
 }
 
-/* .hove{
-  border: none;
-  background: none;
-  outline: none;
-   padding: 0;
-   color:black;
-} */
-
 div.circle1{
   position: absolute;
-  left: 650px; 
-  top: 180px; 
+  left: 50%; 
+  top: 28%; 
   background: #2f3640;
   transform: translate(-40%, -50%);
   border-radius: 70px;
@@ -52,8 +44,8 @@ div.circle1{
   height: 120px;
 }
 div.circle2{
-  left: 400px; 
-  top: 240px; 
+  left: 30%; 
+  top: 40%; 
   position: absolute;
   background: white;
   transform: translate(-40%, -50%);
@@ -66,8 +58,8 @@ div.circle2{
   height: 0 3px;
 }
 div.circle3{
-  left: 1000px; 
-  top: 400px; 
+  left: 79%; 
+  top: 70%; 
   position: absolute;
   background: white;
   transform: translate(-40%, -50%);
@@ -80,8 +72,8 @@ div.circle3{
   height: 0 3px;
 }
 div.circle4{
-  left: 300px; 
-  top: 520px; 
+  left: 19%; 
+  top: 90%; 
   position: absolute;
   background: white;
   transform: translate(-40%, -50%);
@@ -94,8 +86,8 @@ div.circle4{
   height: 0 3px;
 }
 div.circle5{
-  left: 550px; 
-  top: 750px; 
+  left: 47%; 
+  top: 135%; 
   position: absolute;
   background: white;
   transform: translate(-50%, -50%);
@@ -108,8 +100,8 @@ div.circle5{
   height: 0 3px;
 }
 div.circle6{
-  left: 1000px; 
-  top: 850px; 
+  left: 82%; 
+  top: 150%; 
   position: absolute;
   background: white;
   transform: translate(-50%, -50%);
@@ -122,8 +114,8 @@ div.circle6{
   height: 0 3px;
 }
 div.circle7{
-  left: 380px; 
-  top: 1060px; 
+  left: 30%; 
+  top: 173%; 
   position: absolute;
   background: white;
   transform: translate(-50%, -50%);
@@ -136,8 +128,8 @@ div.circle7{
   height: 0 3px;
 }
 div.circle8{
-  left: 540px; 
-  top: 1400px; 
+  left: 42%; 
+  top: 225%; 
   position: absolute;
   background: white;
   transform: translate(-50%, -50%);
@@ -150,8 +142,8 @@ div.circle8{
   height: 0 3px;
 }
 div.circle9{
-  left: 130px; 
-  top: 1600px; 
+  left: 10%; 
+  top: 256%; 
   position: absolute;
   background: white;
   transform: translate(-50%, -50%);
