@@ -3,7 +3,7 @@ html {
     padding: 0;
     margin: 0;
     height: 100%;
-    overflow-y: hidden;
+     overflow-y: hidden;
 }
 
 /* background image */
@@ -16,7 +16,7 @@ html {
 }
 
 .body-eng {
-    background-image: url("/images/English-BG.svg");
+    background-image: url("/images/Math-BG.svg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -24,7 +24,7 @@ html {
 }
 
 .body-math {
-    background-image: url("/images/Math-BG.svg");
+    background-image: url("/images/English-BG.svg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -46,7 +46,7 @@ a:hover {
 
 /* change the background color */
 .navbar-eng {
-    background-color: #64A23A;
+    background-color: #38a2cc;
     padding: 10px;
     color: white;
 }
@@ -58,7 +58,7 @@ a:hover {
 }
 
 .navbar-math {
-    background-color: #38a2cc;
+    background-color: #4e852a;
     padding: 10px;
     color: white;
 }
@@ -102,7 +102,7 @@ a:hover {
 
 /* navigation back button color */
 .eng {
-    background-color: #4e852a;
+    background-color: #3085a7;
 }
 
 .fil {
@@ -110,7 +110,7 @@ a:hover {
 }
 
 .math {
-    background-color: #3085a7;
+    background-color: #4e852a;
 }
 
 .sci {

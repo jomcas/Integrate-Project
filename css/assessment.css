@@ -11,7 +11,6 @@ body {
     margin: 0;
     
 }
-
 .body-eng {
     background-image: url("/images/English-BG.svg");
     background-position: center;
@@ -457,15 +456,6 @@ p{
     font-family: 'Segoe UI';
     margin-left: 10%;
 }
-
-
-
-
-
- 
-
-  
-
 .btn-selection{
     margin-left: 10px;
     width: 100%;

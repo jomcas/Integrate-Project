@@ -4,7 +4,7 @@ body {
 }
 
 .body-eng {
-    background-color: #9ccf79;
+    background-color: #84cbce;
 }
 
 .body-fil {
@@ -12,7 +12,7 @@ body {
 }
 
 .body-math {
-    background-color: #84cbce;
+    background-color: #9ccf79;
 }
 
 .body-sci {
@@ -28,7 +28,7 @@ a:hover {
 .navbar-eng {
     padding: 10px;
     color: white;
-    background-color: #64A23A;
+    background-color: #38a2cc;
 }
 
 .navbar-fil {
@@ -40,7 +40,7 @@ a:hover {
 .navbar-math {
     padding: 10px;
     color: white;
-    background-color: #38a2cc;
+    background-color: #64A23A;
 }
 
 .navbar-sci {
@@ -82,7 +82,7 @@ a:hover {
 
 /* navigation back button color */
 .eng{
-    background-color: #4e852a;
+    background-color: #3085a7;
 }
 
 .fil{
@@ -90,7 +90,7 @@ a:hover {
 }
 
 .math{
-    background-color: #3085a7;
+    background-color: #4e852a;
 }
 
 .sci{
@@ -107,7 +107,7 @@ a:hover {
 
 .container-eng {
     position: relative;
-    background-color: #72b148;
+    background-color: #3a7f9b;
     width: 70%;
     height: 100%;
     border-radius: 30px;
@@ -133,7 +133,7 @@ a:hover {
 
 .container-math {
     position: relative;
-    background-color: #3a7f9b;
+    background-color: #72b148;
     width: 70%;
     height: 100%;
     border-radius: 30px;
