@@ -34,13 +34,13 @@ body{
     background-size: cover;
   }
   .hove{
-    border: none;
+      border: none;
       background: none;
       outline: none;
       float: left;
-      padding: 0;
-      color: white;
-      font-size: 16px;
+      padding: -10px;
+      font-family: 'Segoe UI';
+      font-size: 20px;
       transition: 0.7s;
       line-height: 110px;
       width: 0px;
@@ -51,13 +51,13 @@ body{
     position: absolute;
     left: 50%; 
     top: 31%; 
-    background: #2f3640;
+    background: #2FBFD7;
     transform: translate(-40%, -50%);
     border-radius: 70px;
     transition: 1s;
   }
-  .circle1:hover > .hove{
-    width: 150px;
+  .circle1:hover  .hove{
+    width: 200px;
     height: 0 3px;
   }
   .circle{
@@ -71,7 +71,7 @@ body{
     background: white;
     transform: translate(-40%, -50%);
     transition: 1s;
-    background: #2f3640;
+    background: #2FBFD7;
     border-radius: 70px;
   }
   .circle2:hover > .hove{
@@ -85,7 +85,7 @@ body{
     background: white;
     transform: translate(-40%, -50%);
     transition: 1s;
-    background: #2f3640;
+    background: #2FBFD7;
     border-radius: 70px;
   }
   .circle3:hover > .hove{
@@ -99,7 +99,7 @@ body{
     background: white;
     transform: translate(-40%, -50%);
     transition: 1s;
-    background: #2f3640;
+    background: #2FBFD7;
     border-radius: 70px;
   }
   .circle4:hover > .hove{
@@ -113,7 +113,7 @@ body{
     background: white;
     transform: translate(-50%, -50%);
     transition: 1s;
-    background: #2f3640;
+    background: #2FBFD7;
     border-radius: 70px;
   }
   .circle5:hover > .hove{
@@ -127,7 +127,7 @@ body{
     background: white;
     transform: translate(-50%, -50%);
     transition: 1s;
-    background: #2f3640;
+    background: #2FBFD7;
     border-radius: 70px;
   }
   .circle6:hover > .hove{
@@ -141,7 +141,7 @@ body{
     background: white;
     transform: translate(-50%, -50%);
     transition: 1s;
-    background: #2f3640;
+    background: #2FBFD7;
     border-radius: 70px;
   }
   .circle7:hover > .hove{
@@ -155,7 +155,7 @@ body{
     background: white;
     transform: translate(-50%, -50%);
     transition: 1s;
-    background: #2f3640;
+    background: #2FBFD7;
     border-radius: 70px;
   }
   .circle8:hover > .hove{
@@ -169,7 +169,7 @@ body{
     background: white;
     transform: translate(-50%, -50%);
     transition: 1s;
-    background: #2f3640;
+    background: #2FBFD7;
     border-radius: 70px;
   }
   .circle9:hover > .hove{
@@ -183,7 +183,7 @@ body{
     background: white;
     transform: translate(-50%, -50%);
     transition: 1s;
-    background: #2f3640;
+    background: #2FBFD7;
     border-radius: 70px;
   }
   .circle0:hover > .hove{
