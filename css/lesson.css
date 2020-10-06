@@ -129,6 +129,7 @@ a:hover {
     margin: auto;
     top: 150px;
     margin-bottom: 50px;
+    cursor: pointer;
 }
 
 .container-math {
