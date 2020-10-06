@@ -55,6 +55,7 @@ body{
     transform: translate(-40%, -50%);
     border-radius: 70px;
     transition: 1s;
+    
   }
   .circle1:hover  .hove{
     width: 200px;
