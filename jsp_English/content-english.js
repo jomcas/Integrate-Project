@@ -267,6 +267,7 @@ function youtubeVid(url){
     let framePane = document.createElement('iframe');
     framePane.setAttribute("style","width:100%;height:100%");
     framePane.setAttribute("src",url);
+
     
     var el = document.getElementById('marker');
     el.setAttribute("style","width:100%;height:100%");
@@ -278,7 +279,7 @@ function youtubeVid(url){
 function powerpoint(url){
     var el = document.getElementById('container');
     // el.setAttribute("style","width:100%;height:100%");
-    el.innerHTML = '<iframe src="'+url+'/_layouts/15/Doc.aspx?sourcedoc={25063ca0-8135-448e-9bef-64f0ef613e66}&amp;action=embedview&amp;wdAr=1.4148802017654476" width="1089px" height="793px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>';
+    el.innerHTML = '<iframe src="'+url+'/_layouts/15/Doc.aspx?sourcedoc={25063ca0-8135-448e-9bef-64f0ef613e66}&amp;action=embedview&amp;wdAr=1.4148802017654476" width="100%" height="100%" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>';
 }
 
 
