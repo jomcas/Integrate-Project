@@ -3,8 +3,6 @@
  * ba nung nasa baba keme
  */
 
-
-
 if(sessionStorage.getItem("ID") === "1"){
     var titles=["Main Body Parts","Sense Organs"];
     for(var temp= 1;temp<=titles.length;temp++){
