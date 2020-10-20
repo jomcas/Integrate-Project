@@ -1,5 +1,3 @@
-
-
 let url = "";
 
 //1 Counting Numbers
@@ -7,6 +5,8 @@ let url = "";
 if(sessionStorage.getItem("ID")==1 && sessionStorage.getItem("lessonID")==1){
     url= 'https://nationalueduph-my.sharepoint.com/:p:/r/personal/ariasru_students_national-u_edu_ph';
     powerpoint(url);
+
+   
 }
 
 else if(sessionStorage.getItem("ID")==1 && sessionStorage.getItem("lessonID")==2){
