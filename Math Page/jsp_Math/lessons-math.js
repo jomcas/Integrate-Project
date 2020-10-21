@@ -48,13 +48,13 @@ if(sessionStorage.getItem("ID") === "1"){
     }
     
 }else if(sessionStorage.getItem("ID") === "8"){
-    var titles=["Number of sides","Regular and irregular shapes","0 – 4 sides only","Real life examples of shapes"];
+    var titles=["Introduction to Shapes","Basic Shapes","Regular Polygons","Irregular Polygons", "Identifying Shapes"];
     for(var temp= 1;temp<=titles.length;temp++){
         Populate(temp,titles[temp-1]);
     }
     
 }else if(sessionStorage.getItem("ID") === "9"){
-    var titles=["Reading analog clock","AM and PM","Seconds – minutes -hours equivalent","Days in a Week, Months in a Year", "Weight", "Long, Longer, Longest"];
+    var titles=["Telling Time","Reading Time in Minutes","Quarter Hour and Half Hour"];
     for(var temp= 1;temp<=titles.length;temp++){
         Populate(temp,titles[temp-1]);
     }

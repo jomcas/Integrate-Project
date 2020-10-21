@@ -3,52 +3,29 @@ let url = "";
 //1 Counting Numbers
 
 if(sessionStorage.getItem("ID")==1 && sessionStorage.getItem("lessonID")==1){
-    url= 'https://nationalueduph-my.sharepoint.com/:p:/r/personal/ariasru_students_national-u_edu_ph';
+    url= '<iframe src="https://nationalueduph-my.sharepoint.com/personal/ariasru_students_national-u_edu_ph/_layouts/15/Doc.aspx?sourcedoc={19e7812a-571a-4c12-b7bb-f95a8afd1582}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="1186px" height="691px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>';
     powerpoint(url);
-
-   
 }
 
 else if(sessionStorage.getItem("ID")==1 && sessionStorage.getItem("lessonID")==2){
-    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/llanetaje_students_national-u_edu_ph/EW8NZ-loncFLu4JYdlXC274Bs3GGkuAqnkXouOG0k40zaw?e=y8WdIJ';
+    url= '<iframe src="https://nationalueduph-my.sharepoint.com/personal/ariasru_students_national-u_edu_ph/_layouts/15/Doc.aspx?sourcedoc={dcdb7d3a-3529-4268-b9b7-f1d81ef87016}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="1186px" height="691px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>';
     powerpoint(url);
 }
 
 else if(sessionStorage.getItem("ID")==1 && sessionStorage.getItem("lessonID")==3){
-    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/llanetaje_students_national-u_edu_ph/EW8NZ-loncFLu4JYdlXC274Bs3GGkuAqnkXouOG0k40zaw?e=y8WdIJ';
+    url= '<iframe src="https://nationalueduph-my.sharepoint.com/personal/ariasru_students_national-u_edu_ph/_layouts/15/Doc.aspx?sourcedoc={65eae6db-6a3d-4629-bcea-53e48cf45ae2}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="1186px" height="691px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>';
     powerpoint(url);
 }
 
 else if(sessionStorage.getItem("ID")==1 && sessionStorage.getItem("lessonID")==4){
-    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/llanetaje_students_national-u_edu_ph/EW8NZ-loncFLu4JYdlXC274Bs3GGkuAqnkXouOG0k40zaw?e=y8WdIJ';
+    url= '<iframe src="https://nationalueduph-my.sharepoint.com/personal/ariasru_students_national-u_edu_ph/_layouts/15/Doc.aspx?sourcedoc={2f01a790-3c2b-4cc8-a3aa-3f82310f2617}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="1186px" height="691px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>';
     powerpoint(url);
 }
 
 else if(sessionStorage.getItem("ID")==1 && sessionStorage.getItem("lessonID")==5){
-    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/llanetaje_students_national-u_edu_ph/EW8NZ-loncFLu4JYdlXC274Bs3GGkuAqnkXouOG0k40zaw?e=y8WdIJ';
+    url= '<iframe src="https://nationalueduph-my.sharepoint.com/personal/ariasru_students_national-u_edu_ph/_layouts/15/Doc.aspx?sourcedoc={2e00e3e8-d40e-4902-985e-4366e87b0d28}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="1186px" height="691px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>';
     powerpoint(url);
 }
-
-else if(sessionStorage.getItem("ID")==1 && sessionStorage.getItem("lessonID")==6){
-    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/llanetaje_students_national-u_edu_ph/EW8NZ-loncFLu4JYdlXC274Bs3GGkuAqnkXouOG0k40zaw?e=y8WdIJ';
-    powerpoint(url);
-}
-
-else if(sessionStorage.getItem("ID")==1 && sessionStorage.getItem("lessonID")==7){
-    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/llanetaje_students_national-u_edu_ph/EW8NZ-loncFLu4JYdlXC274Bs3GGkuAqnkXouOG0k40zaw?e=y8WdIJ';
-    powerpoint(url);
-}
-
-else if(sessionStorage.getItem("ID")==1 && sessionStorage.getItem("lessonID")==8){
-    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/llanetaje_students_national-u_edu_ph/EW8NZ-loncFLu4JYdlXC274Bs3GGkuAqnkXouOG0k40zaw?e=y8WdIJ';
-    powerpoint(url);
-}
-
-else if(sessionStorage.getItem("ID")==1 && sessionStorage.getItem("lessonID")==9){
-    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/llanetaje_students_national-u_edu_ph/EW8NZ-loncFLu4JYdlXC274Bs3GGkuAqnkXouOG0k40zaw?e=y8WdIJ';
-    powerpoint(url);
-}
-
 
 
 //2
@@ -222,64 +199,49 @@ else if(sessionStorage.getItem("ID")==7 && sessionStorage.getItem("lessonID")==6
 }
 
 
-//8
+//8 Shapes
 else if(sessionStorage.getItem("ID")==8 && sessionStorage.getItem("lessonID")==1){
-    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/llanetaje_students_national-u_edu_ph/EaA8BiU1gY5Em-9k8O9hPmYBddzEklt_ybICdCP1mJOIYg?e=PbxEZS';
+    url= '<iframe src="https://nationalueduph-my.sharepoint.com/personal/ariasru_students_national-u_edu_ph/_layouts/15/Doc.aspx?sourcedoc={d9f6d66f-8f23-46af-8519-0c7efd3aea54}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="350px" height="221px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>';
     powerpoint(url);
 }
 
 else if(sessionStorage.getItem("ID")==8 && sessionStorage.getItem("lessonID")==2){
-    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/llanetaje_students_national-u_edu_ph/EQFcA_4tZJBIi_uBZ-YmKWgBBL8LTkEDuBrrUVQS0gPNww?e=8sd1Fy';
+    url= '<iframe src="https://nationalueduph-my.sharepoint.com/personal/ariasru_students_national-u_edu_ph/_layouts/15/Doc.aspx?sourcedoc={9f5e4cb0-3a28-4aef-95eb-35b581a0339d}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="1186px" height="691px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>';
     powerpoint(url);
 }
 
 else if(sessionStorage.getItem("ID")==8 && sessionStorage.getItem("lessonID")==3){
-    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/llanetaje_students_national-u_edu_ph/EWX004kcFrhEu4eNS-oD84sBb35Nq4SRzXxPa4loawvw6w?e=cJEQrW';
+    url= '<iframe src="https://nationalueduph-my.sharepoint.com/personal/ariasru_students_national-u_edu_ph/_layouts/15/Doc.aspx?sourcedoc={95561867-4950-465a-8408-567c58e10109}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="1186px" height="691px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>';
     powerpoint(url);
 }
 
 else if(sessionStorage.getItem("ID")==8 && sessionStorage.getItem("lessonID")==4){
-    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/llanetaje_students_national-u_edu_ph/EfVhhmuiFDRCvnRt0W_T6tQBZcrZgeDT6yabP1KXuwb4Mw?e=0vvnU6';
+    url= '<iframe src="https://nationalueduph-my.sharepoint.com/personal/ariasru_students_national-u_edu_ph/_layouts/15/Doc.aspx?sourcedoc={1ea74a73-b5e4-4bc3-9a75-9f2536b66cdd}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="1186px" height="691px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>';
     powerpoint(url);
 }
 else if(sessionStorage.getItem("ID")==8 && sessionStorage.getItem("lessonID")==5){
-    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/llanetaje_students_national-u_edu_ph/EXPQWXeAxdBDk-xuInMABGMBbSyq1NHYrXhGqeAzk0Xo9Q?e=HxUK9L';
-    powerpoint(url);
-}
-else if(sessionStorage.getItem("ID")==8 && sessionStorage.getItem("lessonID")==6){
-    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/llanetaje_students_national-u_edu_ph/Eez4nUc4hldBmfEJF0G64p8B5v_3rSkDPik5-1nkkWCJJA?e=ZmLJ6u';
-    powerpoint(url);
-}
-else if(sessionStorage.getItem("ID")==8 && sessionStorage.getItem("lessonID")==7){
-    url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/llanetaje_students_national-u_edu_ph/EV0F_Om9US9HqrS-5-n8WXgBetzMmDwMiLt4ok7aK175yA?e=Ii4OnE';
+    url= '<iframe src="https://nationalueduph-my.sharepoint.com/personal/ariasru_students_national-u_edu_ph/_layouts/15/Doc.aspx?sourcedoc={901ef63a-5655-49c5-801c-8824ec5ab472}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="1186px" height="691px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>';
     powerpoint(url);
 }
 
-//9
+
+//9 Time
 else if(sessionStorage.getItem("ID")==9 && sessionStorage.getItem("lessonID")==1){
-    url = 'https://www.youtube.com/embed/8_s1CRs1rJk?controls=0';
-    youtubeVid(url);
+    url= '<iframe src="https://nationalueduph-my.sharepoint.com/personal/ariasru_students_national-u_edu_ph/_layouts/15/Doc.aspx?sourcedoc={34629c3c-989e-416c-843b-066a6ee40987}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="1186px" height="691px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>';
+    powerpoint(url);
+
 }
 
 else if(sessionStorage.getItem("ID")==9 && sessionStorage.getItem("lessonID")==2){
-    url = "https://www.youtube.com/embed/FomVrsf-PJ0?controls=0";
-    youtubeVid(url);
+    url= '<iframe src="https://nationalueduph-my.sharepoint.com/personal/ariasru_students_national-u_edu_ph/_layouts/15/Doc.aspx?sourcedoc={3b95c0bd-cc80-4f85-8b4f-a4d3620d0cf2}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="1186px" height="691px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>';
+    powerpoint(url);
 }
 
 else if(sessionStorage.getItem("ID")==9 && sessionStorage.getItem("lessonID")==3){
-    url = "https://www.youtube.com/embed/0Wrv_ZviMEc?controls=0";
-    youtubeVid(url);
+    url= '<iframe src="https://nationalueduph-my.sharepoint.com/personal/ariasru_students_national-u_edu_ph/_layouts/15/Doc.aspx?sourcedoc={aaac853a-0471-449b-9bd4-2b4ffd9d07b1}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="1186px" height="691px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>';
+    powerpoint(url);
 }
 
-else if(sessionStorage.getItem("ID")==9 && sessionStorage.getItem("lessonID")==4){
-    url = "https://www.youtube.com/embed/cu8j7YnunzQ?controls=0";
-    youtubeVid(url);
-}
-
-else if(sessionStorage.getItem("ID")==9 && sessionStorage.getItem("lessonID")==5){
-    url = "https://www.youtube.com/embed/oes1PE58WQE?controls=0";
-    youtubeVid(url);
-}
 
 else{
 
@@ -313,8 +275,10 @@ function youtubeVid(url){
 function powerpoint(url){
     var el = document.getElementById('container');
     // el.setAttribute("style","width:100%;height:100%");
-    el.innerHTML = '<iframe src="'+url+'/_layouts/15/Doc.aspx?sourcedoc={19e7812a-571a-4c12-b7bb-f95a8afd1582}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="1186px" height="691px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>';
+    // el.innerHTML = '<iframe src="'+url+'/_layouts/15/Doc.aspx?sourcedoc={19e7812a-571a-4c12-b7bb-f95a8afd1582}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="1186px" height="691px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>';
+    el.innerHTML = url;
 }
+
 
 
 
