@@ -24,7 +24,7 @@ if(sessionStorage.getItem("ID") === "1"){
     }
     
 }else if(sessionStorage.getItem("ID") === "4"){
-    var titles=["Visual Examples","Comparisons","Adding and Subtracting Money"];
+    var titles=["Introduction to Money","Bills and Coins","Computing Money"];
     for(var temp= 1;temp<=titles.length;temp++){
         Populate(temp,titles[temp-1]);
     }
@@ -42,7 +42,7 @@ if(sessionStorage.getItem("ID") === "1"){
     }
     
 }else if(sessionStorage.getItem("ID") === "7"){
-    var titles=["Visual Examples","Writing fractions", "Parts of fractions"];
+    var titles=["Introduction to Fraction","Parts of Fraction", "Writing of fractions"];
     for(var temp= 1;temp<=titles.length;temp++){
         Populate(temp,titles[temp-1]);
     }
