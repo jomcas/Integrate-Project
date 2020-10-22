@@ -1,7 +1,7 @@
 let url = "";
 
 if(sessionStorage.getItem("ID")==1 && sessionStorage.getItem("lessonID")==1){
-    url = 'https://www.youtube.com/embed/DXcX6EYdqU0?controls=0';
+    url = 'https://nationaluedup_ph/Documents/Topics_Storage/Non_Living_Things?csf=1&web=1&e=ruaK1v';
     youtubeVid(url);
 }
 
