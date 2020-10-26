@@ -1,7 +1,7 @@
 let url = "";
 
 if(sessionStorage.getItem("ID")==1 && sessionStorage.getItem("lessonID")==1){
-    url = 'https://nationaluedup_ph/Documents/Topics_Storage/Non_Living_Things?csf=1&web=1&e=ruaK1v';
+    url = 'https://www.youtube.com/embed/DXcX6EYdqU0?controls=0';
     youtubeVid(url);
 }
 
@@ -278,7 +278,6 @@ function youtubeVid(url){
 
 function powerpoint(url){
     var el = document.getElementById('container');
-    // el.setAttribute("style","width:100%;height:100%");
     el.innerHTML = '<iframe src="'+url+'/_layouts/15/Doc.aspx?sourcedoc={25063ca0-8135-448e-9bef-64f0ef613e66}&amp;action=embedview&amp;wdAr=1.4148802017654476" width="100%" height="100%" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>';
 }
 

@@ -227,16 +227,9 @@ function youtubeVid(url){
     
     
     let framePane = document.createElement('iframe');
-    framePane.setAttribute("style","width:100%;height:80%");
+    framePane.setAttribute("style","width:100%;height:100%");
     framePane.setAttribute("src",url);
-    // framePane.setAttribute("frameborder","0");
-    // framePane.setAttribute("allow","accelerometer");
-    // framePane.setAttribute("allow","autoplay");
-    // framePane.setAttribute("allow","clipboard-write");
-    // framePane.setAttribute("allow","encrypted-media");
-    // framePane.setAttribute("allow","gyroscope");
-    // framePane.setAttribute("allow","picture-in-picture");
-    // framePane.setAttribute("allowfullscreen");
+
     
     var el = document.getElementById('marker');
     el.setAttribute("style","width:100%;height:100%");
