@@ -11,7 +11,7 @@ if(sessionStorage.getItem("ID") === "1"){
     }
 
 }else if(sessionStorage.getItem("ID") === "3"){
-    var titles=[];
+    var titles=["Phonics and Word Recognition​ 1","Phonics and Word Recognition​ 2","Phonics and Word Recognition​ 3","Phonics and Word Recognition​ 4","Phonics and Word Recognition​ 5"];
     for(var temp= 1;temp<=titles.length;temp++){
         Populate(temp,titles[temp-1]);
     }
