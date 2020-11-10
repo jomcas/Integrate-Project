@@ -16,10 +16,10 @@ body {
 }
 
 .custom-box {
-    max-width: 4500px;
+    max-width: 450px;
     background-color: whitesmoke;
     margin: 20px auto;
-    padding: 30px;
+    padding: 15px;
     border-radius: 10px;
 }
 
