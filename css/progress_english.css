@@ -25,8 +25,7 @@ body{
   
   .container{
     height: 2200px;
-    background-image: url("/images/Progress_EnglishBg.svg");
-    background-color: red;
+    background-image: url("../images/Progress_EnglishBg.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -40,8 +39,21 @@ body{
     top: 31%; 
     transform: translate(-40%, -50%);
     transition: 1s;
-    
+   
+
   }
+
+  .lock1{
+    position: absolute;
+    left: 50%; 
+    top: 30.7%; 
+    transform: translate(-40%, -50%);
+    transition: 1s;
+    width: 120px;
+    height: 120px;
+    /* display: none; */
+  }
+    
   .circle{
     width: 120px;
     height: 120px;
@@ -55,6 +67,18 @@ body{
     transform: translate(-40%, -50%);
     transition: 1s;
   }
+  .lock2{
+    left: 30%; 
+    top: 49.7%; 
+    position: absolute;
+    transform: translate(-40%, -50%);
+    transition: 1s;
+    width: 120px;
+    height: 120px;
+  }
+
+
+
   div.circle3{
     left: 80%; 
     top: 70%; 
@@ -62,6 +86,17 @@ body{
     transform: translate(-40%, -50%);
     transition: 1s;
   }
+
+  .lock3{
+    left: 80%; 
+    top: 69.5%; 
+    position: absolute;
+    transform: translate(-40%, -50%);
+    transition: 1s;
+    width: 120px;
+    height: 120px;
+  }
+
   div.circle4{
     left: 17%; 
     top: 98%; 
@@ -69,12 +104,30 @@ body{
     transform: translate(-40%, -50%);
     transition: 1s;
   }
+
+  .lock4{
+    left: 17%; 
+    top: 97.5%; 
+    position: absolute;
+    transform: translate(-40%, -50%);
+    width: 120px;
+    height: 120px;
+  }
   div.circle5{
     left: 45%; 
     top: 140%; 
     position: absolute;
     transform: translate(-50%, -50%);
     transition: 1s;
+  }
+  .lock5{
+    left: 45%; 
+    top: 140%; 
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transition: 1s;
+    width: 120px;
+    height: 120px;
   }
 
   div.circle6{
@@ -84,6 +137,16 @@ body{
     transform: translate(-50%, -50%);
     transition: 1s;
   }
+  .lock6{
+    left: 82%; 
+    top: 163%; 
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transition: 1s;
+    width: 120px;
+    height: 120px;
+  }
+
   div.circle7{
     left: 30%; 
     top: 205%; 
@@ -91,6 +154,16 @@ body{
     transform: translate(-50%, -50%);
     transition: 1s;
   }
+  .lock7{
+    left: 30%; 
+    top: 205%; 
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transition: 1s;
+    width: 120px;
+    height: 120px;
+  }
+
   div.circle8{
     left: 41.5%; 
     top: 260%;
@@ -98,12 +171,29 @@ body{
     transform: translate(-50%, -50%);
     transition: 1s;
   }
+  .lock8{
+    left: 41.5%; 
+    top: 260%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transition: 1s;
+    width: 120px;
+    height: 120px;
+  }
   div.circle9{
     left: 80%; 
     top: 300%; 
     position: absolute;
     transform: translate(-50%, -50%);
     transition: 1s;
-
+  }
+  .lock9{
+    left: 80%; 
+    top: 300%; 
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transition: 1s;
+    width: 120px;
+    height: 120px;
   }
 

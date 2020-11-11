@@ -24,7 +24,7 @@ body{
 
 .container{
   height: 2100px;
-  background-image: url("/images/progress.svg");
+  background-image: url("../images/progress.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 110%;
@@ -39,6 +39,15 @@ div.circle1{
   transform: translate(-40%, -50%);
   transition: 1s;
 }
+.lock1{
+  position: absolute;
+  left: 50%; 
+  top: 28%; 
+  transform: translate(-40%, -50%);
+  transition: 1s;
+  width: 120px;
+  height: 120px;
+}
 .circle{
   width: 120px;
   height: 120px;
@@ -50,12 +59,30 @@ div.circle2{
   transform: translate(-40%, -50%);
   transition: 1s;
 }
+.lock2{
+  left: 30%; 
+  top: 40%; 
+  position: absolute;
+  transform: translate(-40%, -50%);
+  transition: 1s;
+  width: 120px;
+  height: 120px;
+}
 div.circle3{
   left: 79%; 
   top: 70%; 
   position: absolute;
   transform: translate(-40%, -50%);
   transition: 1s;
+}
+.lock3{
+  left: 79%; 
+  top: 70%; 
+  position: absolute;
+  transform: translate(-40%, -50%);
+  transition: 1s;
+  width: 120px;
+  height: 120px;
 }
 
 div.circle4{
@@ -65,6 +92,15 @@ div.circle4{
   transform: translate(-40%, -50%);
   transition: 1s;
 }
+.lock4{
+  left: 19%; 
+  top: 90%; 
+  position: absolute;
+  transform: translate(-40%, -50%);
+  transition: 1s;
+  width: 120px;
+  height: 120px;
+}
 
 div.circle5{
   left: 47%; 
@@ -72,6 +108,15 @@ div.circle5{
   position: absolute;
   transform: translate(-50%, -50%);
   transition: 1s;
+}
+.lock5{
+  left: 47%; 
+  top: 135%; 
+  position: absolute;
+  transform: translate(-50%, -50%);
+  transition: 1s;
+  width: 120px;
+  height: 120px;
 }
 
 div.circle6{
@@ -81,6 +126,15 @@ div.circle6{
   transform: translate(-50%, -50%);
   transition: 1s;
 }
+.lock6{
+  left: 82%; 
+  top: 150%; 
+  position: absolute;
+  transform: translate(-50%, -50%);
+  transition: 1s;
+  width: 120px;
+  height: 120px;
+}
 div.circle7{
   left: 30%; 
   top: 173%; 
@@ -88,9 +142,14 @@ div.circle7{
   transform: translate(-50%, -50%);
   transition: 1s;
 }
-.circle7:hover > .hove{
-  width: 130px;
-  height: 0 3px;
+.lock7{
+  left: 30%; 
+  top: 173%; 
+  position: absolute;
+  transform: translate(-50%, -50%);
+  transition: 1s;
+  width: 120px;
+  height: 120px;
 }
 div.circle8{
   left: 42%; 
@@ -99,6 +158,15 @@ div.circle8{
   transform: translate(-50%, -50%);
   transition: 1s;
 }
+.lock8{
+  left: 42%; 
+  top: 225%; 
+  position: absolute;
+  transform: translate(-50%, -50%);
+  transition: 1s;
+  width: 120px;
+  height: 120px;
+}
 div.circle9{
   left: 10%; 
   top: 256%; 
@@ -106,10 +174,28 @@ div.circle9{
   transform: translate(-50%, -50%);
   transition: 1s;
 }
+.lock9{
+  left: 10%; 
+  top: 256%; 
+  position: absolute;
+  transform: translate(-50%, -50%);
+  transition: 1s;
+  width: 120px;
+  height: 120px;
+}
 div.circle0{
   left: 1020px; 
   top: 1800px; 
   position: absolute;
   transform: translate(-50%, -50%);
   transition: 1s;
+}
+.lock10{
+  left: 1020px; 
+  top: 1800px; 
+  position: absolute;
+  transform: translate(-50%, -50%);
+  transition: 1s;
+  width: 120px;
+  height: 120px;
 }

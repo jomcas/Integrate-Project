@@ -12,7 +12,7 @@ body {
     
 }
 .body-eng {
-    background-image: url("/images/English-BG.svg");
+    background-image: url("../images/English-BG.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,7 +22,7 @@ body {
 }
 
 .body-fil {
-    background-image: url("/images/Filipino-BG.svg");
+    background-image: url("../images/Filipino-BG.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,7 +31,7 @@ body {
 }
 
 .body-math {
-    background-image: url("/images/Math-BG.svg");
+    background-image: url("../images/Math-BG.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -40,7 +40,7 @@ body {
 }
 
 .body-sci {
-    background-image: url("/images/Science-BG.svg");
+    background-image: url("../images/Science-BG.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -132,6 +132,7 @@ a:hover {
     top: 110px;
     margin-bottom: 50px;
 }
+
 
 .container-eng-noquestion {
     position: relative;
@@ -331,13 +332,13 @@ a:hover {
 .container-math-question {
     position: relative;
     background-color:  #3a7f9b;
-    width: 40%;
-    height: 65%;
+    width: 43%;
+    height: 30%;
     border-radius: 30px;
     margin: auto;
     margin-left: 5%;
-    top: 89px;
-    margin-bottom: 50px;
+    top: 100px;
+    /* margin-bottom: 50px; */
 }
 
 .container-math-noquestion {

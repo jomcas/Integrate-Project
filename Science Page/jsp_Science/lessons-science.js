@@ -87,6 +87,6 @@ document.body.appendChild(container);
 function showIDLesson(id){
     // alert(id);
     sessionStorage.setItem("lessonID",id); 
-    window.location.href = "/Science Page/vid-sci.html";
+    window.location.href = "../Science Page/vid-sci.html";
 
 }

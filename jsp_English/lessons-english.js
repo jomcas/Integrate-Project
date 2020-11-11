@@ -104,6 +104,6 @@ document.body.appendChild(container);
 function showIDLesson(id){
     // alert(id);
     sessionStorage.setItem("lessonID",id); 
-    window.location.href = "/English Page/vid-eng.html";
+    window.location.href = "../English Page/vid-eng.html";
 
 }
