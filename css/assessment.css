@@ -264,25 +264,13 @@ a:hover {
 .container-sci-question {
     position: relative;
     background-color:  #723b86;
-    width: 40%;
-    height: 65%;
+    width: 43%;
+    height: 30%;
     border-radius: 30px;
     margin: auto;
     margin-left: 5%;
-    top: 110px;
-    margin-bottom: 50px;
-}
-
-.container-sci-noquestion {
-    position: relative;
-    background-color: #723b86;
-    width: 20%;
-    height: auto;
-    border-radius: 30px;
-    
-    margin: auto;
-    margin-left: 5%;
-    top: 110px;
+    top: 100px;
+    /* margin-bottom: 50px; */
 }
 
 .button-sci{
