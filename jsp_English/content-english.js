@@ -77,6 +77,7 @@ else if(sessionStorage.getItem("ID")==3 && sessionStorage.getItem("lessonID")==4
 else if(sessionStorage.getItem("ID")==3 && sessionStorage.getItem("lessonID")==5){
     url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/llanetaje_students_national-u_edu_ph/Efuc5ZFwkGJCn0yHkMmDCxgB72yJV3AILsXJLtEYBcFiPg?e=cJK9am';
     powerpoint(url);
+    createAssessmentBtn();
 }
 
 
@@ -198,11 +199,11 @@ else if(sessionStorage.getItem("ID")==7 && sessionStorage.getItem("lessonID")==4
 else if(sessionStorage.getItem("ID")==7 && sessionStorage.getItem("lessonID")==5){
     url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/llanetaje_students_national-u_edu_ph/Eewk_Bl_hghAqLi6kZFgl8QBP84NCKRx5-abtmLiPjtB3g?e=nMNVBJ';
     powerpoint(url);
-    createAssessmentBtn();
 }
 else if(sessionStorage.getItem("ID")==7 && sessionStorage.getItem("lessonID")==6){
     url= 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/llanetaje_students_national-u_edu_ph/ESUNNZv3WfdBrShE2J-p0QgB7guJRxRvSBflVbqR3EHAIQ?e=aPEysF';
     powerpoint(url);
+    createAssessmentBtn();
 
 }
 

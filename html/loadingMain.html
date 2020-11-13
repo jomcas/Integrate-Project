@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading Screen</title>
+    <link rel="stylesheet" href="../stylesheet/loader.css">
+    <script>
+        var i = 0;
+        var txt = "Let's Get Started. Happy Learning Student :)...";
+        var speed = 250;
+
+        function typeWriter() {
+            if (i < txt.length) {
+                document.getElementById("typeMain").innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+            } else {
+                window.location = "http://localhost/main/php/main.php";
+            }
+
+        }
+    </script>
+</head>
+
+<body class="loadingloginMain" onload="typeWriter()">
+    <iframe width="0" height="0" src="http://www.youtuberepeater.com/watch?v=b-sQvG93yRY&name=Happy+background+music+for+kids+videos+and+children+games+Apps#gsc.tab=0" frameborder="0" allowfullscreen></iframe>
+
+    <div class="typingMain">
+        <p id="typeMain"></p>
+    </div>
+
+
+</body>
+
+</html>

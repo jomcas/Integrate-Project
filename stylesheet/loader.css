@@ -1,0 +1,103 @@
+body{
+    background-image: url('../images/Science.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: transitionIn 1s;
+}
+
+.loadinglogin {
+    background-image: url('../images/Math.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: transitionIn 1s;
+}
+
+.loadingloginMain{
+    background-image: url('../images/Filipino.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: transitionIn 1s;
+}
+
+@keyframes transitionIn {
+	from {
+		opacity: 0;
+		transform: translateY(-10px);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateY(0);
+
+	}
+}
+
+@media (max-width: 600px) {
+    body{
+        background-image: url('../images/Science.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        animation: transitionIn 1s;
+    }
+    .loader{
+        margin-top: 85px;
+        margin-left: 550px;
+    }
+    
+    .load{
+        width: 400px;
+    }
+    
+    .loading{
+        margin-top: 5px;
+        margin-left: 495px;
+    
+    }
+  }
+
+.loader{
+    margin-top: 0px;
+    margin-left: 550px;
+}
+
+.load{
+    width: 400px;
+}
+
+.loading{
+    margin-top: 5px;
+    margin-left: 495px;
+
+}
+
+.typing{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 200px;
+}
+
+p{
+    font-size: 500%;
+    font-style: oblique;
+    font-weight: 900;
+}
+
+.typingMain{
+    margin-left: 200px;
+    margin-right: 150px;
+    margin-top: 200px;
+
+}
+
+h4{
+    text-align: center;
+    color: white;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+
+
+
+

@@ -1,0 +1,73 @@
+body {
+    background-image: url('../images/School.png');
+    background-repeat: no-repeat;
+    backdrop-filter: blur(5px);
+    background-size: cover;
+    animation: transitionIn 1s;
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=number]:focus,
+input[type=date]:focus {
+    background-color: rgb(99, 240, 158);
+}
+
+input[type=text],
+input[type=email],
+input[type=number],
+input[type=date],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 2px solid rgb(3, 3, 3);
+    border-radius: 12px;
+    box-sizing: border-box;
+    height: 35px;
+}
+
+.btn-success {
+    margin-top: 12px;
+    width: 35%;
+    background-color: #30b434;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.btn-success:hover {
+    background-color: #45a049;
+}
+
+.btn-cancel {
+    margin-top: 12px;
+    width: 35%;
+    background-color: #f16363;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.btn-cancel:hover {
+    background-color: #d34747;
+}
+
+.container-form {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    width: 375px;
+    height: 610px;
+    margin-left: 550px;
+    margin-top: 50px;
+    border-radius: 20px;
+    border: 5px ridge #7c7a7a;
+    -webkit-box-shadow: 9px 13px 14px 4px rgba(0, 0, 0, 0.83);
+    box-shadow: 9px 13px 14px 4px rgba(0, 0, 0, 0.83);
+}

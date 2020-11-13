@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading Screen</title>
+    <link rel="stylesheet" href="../stylesheet/loader.css">
+    <script>
+        var i = 0;
+        var txt = 'WELCOME 1st Graders. We are looking forward to learning with you. HAVE FUN :)';
+        var speed = 250;
+
+        function typeWriter() {
+            if (i < txt.length) {
+                document.getElementById("type").innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+            } else {
+                window.location = "http://localhost/IntegrativeProj/php/Login.php";
+            }
+
+        }
+    </script>
+</head>
+
+
+<body class="loadinglogin" onload="typeWriter()">
+    <iframe width="0" height="0" src="http://www.youtuberepeater.com/watch?v=b-sQvG93yRY&name=Happy+background+music+for+kids+videos+and+children+games+Apps#gsc.tab=0" frameborder="0" allowfullscreen></iframe>
+
+    <div class="typing">
+        <p id="type"></p>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+body {
+    background-image: url('../images/acc.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: transitionIn 1s;
+}
