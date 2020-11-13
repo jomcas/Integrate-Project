@@ -24,10 +24,10 @@ $result = mysqli_query($mysqli, "SELECT * FROM reg_stud ORDER BY id DESC");
             <h2>Administrator</h2>
         </header>
         <ul>
-            <a href="http://localhost/IntegrativeProj/php/AdminHome.php"><li tabindex="0" class="Users"><span>Users</span></li></a>
+            <a href="http://localhost/main/php/AdminHome.php"><li tabindex="0" class="Users"><span>Users</span></li></a>
             <li tabindex="0" class="Audit"><span>Audit Log</span></li>
-            <a href="http://localhost/IntegrativeProj/php/Changepass.php"><li tabindex="0" class="Password"><span>Password</span></li></a>
-            <a href="http://localhost/IntegrativeProj/php/logout.php"><li tabindex="0" class="Logout"><span>Logout</span></li></a>
+            <a href="http://localhost/main/php/Changepass.php"><li tabindex="0" class="Password"><span>Password</span></li></a>
+            <a href="http://localhost/main/php/logout.php"><li tabindex="0" class="Logout"><span>Logout</span></li></a>
         </ul>
     </nav>
 <center>
