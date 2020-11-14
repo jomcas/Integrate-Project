@@ -124,6 +124,10 @@ body {
     transform: rotateY(180deg);
 }
 
+#victory-text {
+    color: rgb(13, 214, 13);
+}
+
 .overlay-text {
     top: 0;
     left: 0;
