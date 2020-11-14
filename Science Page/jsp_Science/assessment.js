@@ -13,6 +13,7 @@ let availableOptions = [];
 let correctAnswers = 0;
 let attempt = 0;
 var quiz;
+var lesson_name;
 
 // TODO push the question into the available question array
 function setAvailableQuestions() {
@@ -147,19 +148,50 @@ function quizResult() {
     percentage.toFixed(2) + "%";
   document.getElementById("scoreToDB").setAttribute("value", correctAnswers);
   resultBox.querySelector(".total-score").innerHTML = correctAnswers;
+  saveToDb()
+}
+
+//Ajax save score and other data to database.
+function saveToDb(){
+  //get 80% of the total number of questions
+  var passingScore = Math.round((quiz.length * 80) * 0.01);
+  var status = getScoreStatus(passingScore);
+
+  $.post('php_Science/connect-to-db.php',{
+
+    lesson_name: lesson_name,
+    score: correctAnswers,
+    passing_score: passingScore,
+    no_of_items: quiz.length,
+    status: status,
+
+ });
+}
+
+//get score status if pass or fail
+function getScoreStatus(passingScore){
+  if(correctAnswers>=passingScore){
+    return "passed";
+  }
+  return "failed";
 }
 
 function start() {
   if (sessionStorage.getItem("ID") == 1) {
     quiz = unit1;
+    lesson_name = "Human Body Parts"
   } else if (sessionStorage.getItem("ID") == 2) {
     quiz = unit2;
+    lesson_name = "Living Things"
   } else if (sessionStorage.getItem("ID") == 3) {
     quiz = unit3;
+    lesson_name = "Plants"
   } else if (sessionStorage.getItem("ID") == 4) {
     quiz = unit4;
+    lesson_name = "Animals"
   } else if (sessionStorage.getItem("ID") == 5) {
     quiz = unit5;
+    lesson_name = "Non Living Things"
   }
   // hide home box
 
