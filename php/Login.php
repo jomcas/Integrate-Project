@@ -67,7 +67,7 @@
                         <br>
             </form>
             <div class="CreatAcc">
-                Don't have an account? <a href="http://localhost/main/php/Registration.php"
+                Don't have an account? <a href="http://localhost/Integrate-Project/php/Registration.php"
                     class="Signtext">Create Account</a>
             </div>
         </div>

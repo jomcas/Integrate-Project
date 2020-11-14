@@ -25,12 +25,12 @@ if(isset($_POST['submit'])){
                $uname = $row['Username'];
                $password = $row['Password'];
                $_SESSION['AdminUser'] = $uname;
-               header('location: http://localhost/main/php/AdminHome.php');
+               header('location: http://localhost/Integrate-Project/php/AdminHome.php');
                exit();
     }
     }else{
 
-        echo "<script>alert('Wrong Username and/or Password :('); window.location.href ='http://localhost/main/php/Login.php'</script>";
+        echo "<script>alert('Wrong Username and/or Password :('); window.location.href ='http://localhost/Integrate-Project/php/Login.php'</script>";
         exit();
 
     }

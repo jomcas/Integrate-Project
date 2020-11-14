@@ -178,7 +178,7 @@
                         <br>
             </form>
             <div class="SigninAcc">
-                Already have an account? <a href="http://localhost/main/php/Login.php" class="Signtext">Sign
+                Already have an account? <a href="http://localhost/Integrate-Project/php/Login.php" class="Signtext">Sign
                     in</a>
             </div>
         </div>
