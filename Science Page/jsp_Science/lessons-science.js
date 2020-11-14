@@ -61,14 +61,16 @@ if (sessionStorage.getItem("ID") === "1") {
     Populate(temp, titles[temp - 1], imageLoc[temp - 1], subcontent[temp - 1]);
   }
 } else if (sessionStorage.getItem("ID") === "5") {
-  var titles = ["Transportation", "Land Forms", "Water Forms"];
+  var titles = ["Transportation", "Weather", "Land Forms", "Water Forms"];
   var imageLoc = [
     "../Science Page/img/transportation.png",
+    "../Science Page/img/weather.png",
     "../Science Page/img/land-forms.png",
     "../Science Page/img/water-forms.png",
   ];
   var subcontent = [
     "a vehicle that you can travel or carry goods.",
+    "There are different kinds of weather we are experiencing everyday. Let's explore what it is and what it is called.",
     "Landforms are features on the Earth's surface that is part of the terrain.",
     "Waterforms are natural stream of running water that flows into a larger body of water.",
   ];
