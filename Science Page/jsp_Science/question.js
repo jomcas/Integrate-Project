@@ -1,7 +1,8 @@
 // Array of Questions
 const unit1 = [
   {
-    q: "What is NOSE for?",
+    q:
+      'What is NOSE for?  <br> <img src="../Science Page/img/animals.PNG" alt="Smelling" width="100%,mkjhz" height="10%"',
     options: ["Tasting", "Smelling", "Seeing"],
     answer: 1,
   },
@@ -17,7 +18,7 @@ const unit1 = [
   },
   {
     q: "What is EAR for?",
-    options: ["Seeing",  "Hearing", "Tasting"],
+    options: ["Seeing", "Hearing", "Tasting"],
     answer: 1,
   },
   {
@@ -113,12 +114,12 @@ const unit3 = [
   },
   {
     q: "Makes the food of the plant.",
-    options: ["Stem", "Flower",  "Leaf"],
+    options: ["Stem", "Flower", "Leaf"],
     answer: 2,
   },
   {
     q: "Produces the seeds and become fruits.",
-    options: [ "Leaf", "Stem", "Flower"],
+    options: ["Leaf", "Stem", "Flower"],
     answer: 2,
   },
   {
@@ -143,7 +144,7 @@ const unit3 = [
   },
   {
     q: "Breathes in air.",
-    options: ["Flower", "Stem","Leaf"],
+    options: ["Flower", "Stem", "Leaf"],
     answer: 2,
   },
   {
@@ -181,7 +182,7 @@ const unit4 = [
   },
   {
     q: "What do RABBIT eats",
-    options: ["carrot", "fish","bone"],
+    options: ["carrot", "fish", "bone"],
     answer: 0,
   },
   {
@@ -243,7 +244,7 @@ const unit5 = [
   },
   {
     q: "Is a landform that rises high above its surroundings.",
-    options: ["Mountain", "Valley","Hills"],
+    options: ["Mountain", "Valley", "Hills"],
     answer: 0,
   },
   {

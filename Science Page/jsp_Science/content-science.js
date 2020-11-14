@@ -5,15 +5,13 @@ if (
   sessionStorage.getItem("ID") == 1 &&
   sessionStorage.getItem("lessonID") == 1
 ) {
-  url =
-    "https://drive.google.com/file/d/1d9wEDarBtZuxfX3AcyLwe1sy9qK7rYAu/preview";
+  url = "https://www.youtube.com/embed/eyp-sgodg94?controls=0";
   youtubeVid(url);
 } else if (
   sessionStorage.getItem("ID") == 1 &&
   sessionStorage.getItem("lessonID") == 2
 ) {
-  url =
-    "https://drive.google.com/file/d/1cqB0GglQDarDbBNN90vZMw7hb8E-WPvF/preview";
+  url = "https://www.youtube.com/embed/k9OqTFZMs2s?controls=0";
   youtubeVid(url);
   createAssessmentBtn();
 }
@@ -23,15 +21,13 @@ else if (
   sessionStorage.getItem("ID") == 2 &&
   sessionStorage.getItem("lessonID") == 1
 ) {
-  url =
-    "https://drive.google.com/file/d/1buo19-TU73lbg_3IBr7HsZ_AaDeh_wH0/preview";
+  url = "https://www.youtube.com/embed/SmlumMnd-eY?controls=0";
   youtubeVid(url);
 } else if (
   sessionStorage.getItem("ID") == 2 &&
   sessionStorage.getItem("lessonID") == 2
 ) {
-  url =
-    "https://drive.google.com/file/d/1F2wTxBsohWEbUeGEX8F3Gv5AkWHX21jx/preview";
+  url = "https://www.youtube.com/embed/94DTODVYrx8?controls=0";
   youtubeVid(url);
   createAssessmentBtn();
 }
@@ -41,8 +37,7 @@ else if (
   sessionStorage.getItem("ID") == 3 &&
   sessionStorage.getItem("lessonID") == 1
 ) {
-  url =
-    "https://drive.google.com/file/d/1Rde9tKGZ1vesg-2zKmigBzarEUb3So9B/preview";
+  url = "https://www.youtube.com/embed/caAg-2LjIVM?controls=0";
   youtubeVid(url);
   createAssessmentBtn();
 }
@@ -52,29 +47,25 @@ else if (
   sessionStorage.getItem("ID") == 4 &&
   sessionStorage.getItem("lessonID") == 1
 ) {
-  url =
-    "https://drive.google.com/file/d/1ym6jsqXgMBBySB9r_c-mDiM5tIp0SlKq/preview";
+  url = "https://www.youtube.com/embed/jcXIoN8Jq-8?controls=0";
   youtubeVid(url);
 } else if (
   sessionStorage.getItem("ID") == 4 &&
   sessionStorage.getItem("lessonID") == 2
 ) {
-  url =
-    "https://drive.google.com/file/d/1Q1cx4_IFQcqfOe5R1UBEy25eiVjUl1TX/preview";
+  url = "https://www.youtube.com/embed/0Y4HF66NiPU?controls=0";
   youtubeVid(url);
 } else if (
   sessionStorage.getItem("ID") == 4 &&
   sessionStorage.getItem("lessonID") == 3
 ) {
-  url =
-    "https://drive.google.com/file/d/1GZSh6yOGri2bPJK4uFSF9AwVi7Nsd5Zn/preview";
+  url = "https://www.youtube.com/embed/GOXQcm8mnXg?controls=0";
   youtubeVid(url);
 } else if (
   sessionStorage.getItem("ID") == 4 &&
   sessionStorage.getItem("lessonID") == 4
 ) {
-  url =
-    "https://drive.google.com/file/d/1TQjcM1ajxCdm1jXoUEJkYHKMbKhu7Kzx/preview";
+  url = "https://www.youtube.com/embed/e8eBkUIC4-4?controls=0";
   youtubeVid(url);
   createAssessmentBtn();
 }
@@ -84,8 +75,7 @@ else if (
   sessionStorage.getItem("ID") == 5 &&
   sessionStorage.getItem("lessonID") == 1
 ) {
-  url =
-    "https://drive.google.com/file/d/1trZmr9BN0P3yv7emI29bNmYjyIqSrG95/preview";
+  url = "https://www.youtube.com/embed/vz62QZlVpqw?controls=0";
   youtubeVid(url);
 } else if (
   sessionStorage.getItem("ID") == 5 &&
@@ -98,15 +88,13 @@ else if (
   sessionStorage.getItem("ID") == 5 &&
   sessionStorage.getItem("lessonID") == 3
 ) {
-  url =
-    "https://drive.google.com/file/d/1nJNgt4wCWKCrusZDWn7ZOsa8oXmzpTlN/preview";
+  url = "https://www.youtube.com/embed/AUinjnfsDH8?controls=0";
   youtubeVid(url);
 } else if (
   sessionStorage.getItem("ID") == 5 &&
   sessionStorage.getItem("lessonID") == 4
 ) {
-  url =
-    "https://drive.google.com/file/d/1RVNM59Ua_LcFfgPMdELL2Xnndv-jYhax/preview";
+  url = "https://www.youtube.com/embed/CJkw3T1IzYk?controls=0";
   youtubeVid(url);
   createAssessmentBtn();
 }
