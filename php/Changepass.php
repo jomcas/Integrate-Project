@@ -18,21 +18,17 @@ if(isset($_POST['submit'])){
               $adminID = $row['Username'];
               $oldpass = $row['Password'];
               mysqli_query($mysqli,"UPDATE admin SET Password ='$newpass' WHERE Username='$adminID'");
-              echo "<script>alert('Your Password Has Been Changed. Please Login Again!'); window.location.href ='http://localhost/main/php/Login.php'</script>";
+              echo "<script>alert('Your Password Has Been Changed. Please Login Again!'); window.location.href ='http://localhost/Integrate-Project/php/Login.php'</script>";
               session_destroy();
               exit(); 
    }
   
   }else{
-    echo "<script>alert('Wrong Credentials. Please Try Again!'); window.location.href ='http://localhost/main/php/Changepass.php'</script>";
+    echo "<script>alert('Wrong Credentials. Please Try Again!'); window.location.href ='http://localhost/Integrate-Project/php/Changepass.php'</script>";
     exit();
     
    }
 
-}
-
-if(isset($_POST['cancel'])){
-    // header('Location: http://localhost/InfoAssurance/Inventory/index.php');
 }
 
 ?>
@@ -100,10 +96,10 @@ if(isset($_POST['cancel'])){
             <h2>Administrator</h2>
         </header>
         <ul>
-        <a href="http://localhost/main/php/AdminHome.php"><li tabindex="0" class="Users"><span>Users</span></li></a>
+        <a href="http://localhost/Integrate-Project/php/AdminHome.php"><li tabindex="0" class="Users"><span>Users</span></li></a>
             <li tabindex="0" class="Audit"><span>Audit Log</span></li>
-            <a href="http://localhost/main/php/Changepass.php"><li tabindex="0" class="Password"><span>Password</span></li></a>
-            <a href="http://localhost/main/php/logout.php"><li tabindex="0" class="Logout"><span>Logout</span></li></a>
+            <a href="http://localhost/Integrate-Project/php/Changepass.php"><li tabindex="0" class="Password"><span>Password</span></li></a>
+            <a href="http://localhost/Integrate-Project/php/logout.php"><li tabindex="0" class="Logout"><span>Logout</span></li></a>
         </ul>
     </nav>
     
