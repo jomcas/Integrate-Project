@@ -236,7 +236,7 @@ function powerpoint(url) {
 }
 
 function hi() {
-    window.location.href = "/Math Page/assessment_math.html";
+    window.location.href = "../Math Page/assessment_math.html";
 }
 
 function createAssessmentBtn() {

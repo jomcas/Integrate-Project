@@ -107,6 +107,6 @@ function Populate(temp, Head_title) {
 function showIDLesson(id) {
     // alert(id);
     sessionStorage.setItem("lessonID", id);
-    window.location.href = "/Math Page/vid-math.html";
+    window.location.href = "../Math Page/vid-math.html";
 
 }
