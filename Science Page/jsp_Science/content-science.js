@@ -82,8 +82,8 @@ else if (
   sessionStorage.getItem("lessonID") == 2
 ) {
   // weather
-  url = "";
-  powerpoint(url);
+  url = "https://www.youtube.com/embed/sn6GLgaTY0M?controls=0";
+  youtubeVid(url);
 } else if (
   sessionStorage.getItem("ID") == 5 &&
   sessionStorage.getItem("lessonID") == 3
@@ -98,50 +98,6 @@ else if (
   url = "https://www.youtube.com/embed/CJkw3T1IzYk?controls=0";
   youtubeVid(url);
   createAssessmentBtn();
-}
-
-//6
-else if (
-  sessionStorage.getItem("ID") == 6 &&
-  sessionStorage.getItem("lessonID") == 1
-) {
-} else if (
-  sessionStorage.getItem("ID") == 6 &&
-  sessionStorage.getItem("lessonID") == 2
-) {
-}
-
-//7
-else if (
-  sessionStorage.getItem("ID") == 7 &&
-  sessionStorage.getItem("lessonID") == 1
-) {
-} else if (
-  sessionStorage.getItem("ID") == 7 &&
-  sessionStorage.getItem("lessonID") == 2
-) {
-}
-
-//8
-else if (
-  sessionStorage.getItem("ID") == 8 &&
-  sessionStorage.getItem("lessonID") == 1
-) {
-} else if (
-  sessionStorage.getItem("ID") == 8 &&
-  sessionStorage.getItem("lessonID") == 2
-) {
-}
-
-//9
-else if (
-  sessionStorage.getItem("ID") == 9 &&
-  sessionStorage.getItem("lessonID") == 1
-) {
-} else if (
-  sessionStorage.getItem("ID") == 9 &&
-  sessionStorage.getItem("lessonID") == 2
-) {
 } else {
 }
 
