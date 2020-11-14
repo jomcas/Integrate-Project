@@ -13,8 +13,10 @@
     <div class = "board">
         <img src="../images/asset.svg" alt="pic.svg" class= "board">
         <div class="welcome">
+            <center>
             <h1>Hello!</h1>
             <h2><?php echo $_SESSION['First_Name']; ?></h2>
+            </center>
         </div>
     </div>
     <div class= "progress">
