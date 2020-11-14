@@ -1,3 +1,5 @@
+<?php session_start(); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,6 +12,10 @@
 <body>
     <div class = "board">
         <img src="../images/asset.svg" alt="pic.svg" class= "board">
+        <div class="welcome">
+            <h1>Hello!</h1>
+            <h2><?php echo $_SESSION['First_Name']; ?></h2>
+        </div>
     </div>
     <div class= "progress">
         <div>
