@@ -87,6 +87,7 @@ else if (
 } else if (
   sessionStorage.getItem("ID") == 5 &&
   sessionStorage.getItem("lessonID") == 3
+  
 ) {
   url = "https://www.youtube.com/embed/AUinjnfsDH8?controls=0";
   youtubeVid(url);
@@ -150,7 +151,7 @@ function youtubeVid(url) {
   container.setAttribute("style", "width:100%;height:80%");
 
   let framePane = document.createElement("iframe");
-  framePane.setAttribute("style", "width:100%;height:80%");
+  framePane.setAttribute("style", "width:100%;height:100%");
   framePane.setAttribute("src", url);
   // framePane.setAttribute("frameborder","0");
   // framePane.setAttribute("allow","accelerometer");
