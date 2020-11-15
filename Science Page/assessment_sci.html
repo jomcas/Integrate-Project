@@ -89,7 +89,14 @@
               <tr>
                 <td>Total Score</td>
                 <td><span class="total-score"></span></td>
-                <input type="text" name="scoreToDB" id="scoreToDB" />
+                <label for="">Total Score:</label>
+                <input
+                  type="text"
+                  style="text-align: center"
+                  name="scoreToDB"
+                  id="scoreToDB"
+                  disabled
+                />
               </tr>
             </table>
             <button type="button" class="btn" name="again">Try Again</button>
@@ -103,6 +110,7 @@
   </body>
 
   <!-- SCRIPTS LOCATED HERE -->
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
   <script src="../Science Page/jsp_Science/question.js"></script>
   <script src="../Science Page/jsp_Science/assessment.js"></script>
 </html>

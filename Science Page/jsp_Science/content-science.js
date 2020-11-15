@@ -77,6 +77,7 @@ else if (
 ) {
   url = "https://www.youtube.com/embed/vz62QZlVpqw?controls=0";
   youtubeVid(url);
+  createNextBtn();
 } else if (
   sessionStorage.getItem("ID") == 5 &&
   sessionStorage.getItem("lessonID") == 2
@@ -87,7 +88,6 @@ else if (
 } else if (
   sessionStorage.getItem("ID") == 5 &&
   sessionStorage.getItem("lessonID") == 3
-  
 ) {
   url = "https://www.youtube.com/embed/AUinjnfsDH8?controls=0";
   youtubeVid(url);
@@ -139,16 +139,43 @@ function hi() {
   window.location.href = "../Science Page/assessment_sci.html";
 }
 
+function nextButtonLoc() {
+  window.location.href = "../Science Page/assessment_sci.html";
+}
+
 function createAssessmentBtn() {
-  var myDiv = document.getElementById("marker");
   // creating button element
-  var button = document.createElement("BUTTON");
+  var myDiv = document.getElementById("marker");
   // creating text to be
+  var button = document.createElement("BUTTON");
   //displayed on button
   var text = document.createTextNode("Assessment");
+
+  // button style
+  var style = document.createElement("style");
+  style.type = "text/css";
+  style.innerHTML =
+    ".createAssessmentBtn  { position: absolute; top:85%;" +
+    "left: 45%;" +
+    "background-color: yellow; color: black;" +
+    "text-align: center;border-color: white;height: 50px ! important;" +
+    "width: 140px;border-radius: 50px;padding: 10x 17px; border-width: thin" +
+    "margin: auto;}";
+  document.head.appendChild(style);
+  button.className = "createAssessmentBtn";
+
   // appending text to button
   button.appendChild(text);
   button.onclick = hi;
   // appending button to div
   myDiv.appendChild(button);
+}
+
+function createNextBtn() {
+  var nextDiv = document.getElementById("next-btn");
+  var nextBtn = document.createElement("BUTTON");
+  var text = document.createTextNode("Next");
+  nextBtn.appendChild(text);
+  button.onclick = nextButtonLoc;
+  nextDiv.appendChild(nextBtn);
 }
