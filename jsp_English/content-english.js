@@ -322,7 +322,7 @@ function powerpoint(url) {
 }
 
 function hi() {
-    window.location.href = "/English Page/assessment_english.html";
+    window.location.href = "../English Page/assessment_english.html";
 }
 
 function createAssessmentBtn() {
