@@ -1,47 +1,56 @@
 // Array of Questions
 const unit1 = [
   {
-    q: "What is NOSE for?",
+    q:
+      'What is NOSE for? <br> <img src="../Science Page/img/nose.PNG" alt="nose" width="50%,mkjhz" height="10%" margin="auto">',
     options: ["Tasting", "Smelling", "Seeing"],
     answer: 1,
   },
   {
-    q: "What is TONGUE for?",
+    q:
+      'What is TONGUE for? <br> <img src="../Science Page/img/tongue.PNG" alt="tongue" width="50%,mkjhz" height="5%" style="margin:auto;">',
     options: ["Touching", "Smelling", "Tasting"],
     answer: 2,
   },
   {
-    q: "What is HANDS for?",
+    q:
+      'What is HANDS for? <br> <img src="../Science Page/img/skin-hand.PNG" alt="hands" width="50%,mkjhz" height="5%" style="margin:auto;">',
     options: ["Hearing", "Touching", "Tasting"],
     answer: 1,
   },
   {
-    q: "What is EAR for?",
-    options: ["Seeing",  "Hearing", "Tasting"],
+    q:
+      'What is EAR for? <br> <img src="../Science Page/img/ears.PNG" alt="ear" width="50%,mkjhz" height="5%" style="margin:auto;">',
+    options: ["Seeing", "Hearing", "Tasting"],
     answer: 1,
   },
   {
-    q: "What is EYES for?",
+    q:
+      'What is EYES for? <br> <img src="../Science Page/img/eyes.PNG" alt="eyes" width="50%,mkjhz" height="5%" style="margin:auto;">',
     options: ["Seeing", "Smelling", "Tasting"],
     answer: 0,
   },
   {
-    q: "Your ears help you hear sounds?",
+    q:
+      'Your ears help you hear sounds?  <br> <img src="../Science Page/img/ears.PNG" alt="ear" width="50%,mkjhz" height="5%" style="margin:auto;">',
     options: ["True", "False"],
     answer: 0,
   },
   {
-    q: "Your nose help you taste food?",
+    q:
+      'Your nose help you taste food?  <br> <img src="../Science Page/img/nose.PNG" alt="nose" width="50%,mkjhz" height="10%" style="margin:auto;">',
     options: ["True", "False"],
     answer: 1,
   },
   {
-    q: "Your tongue helps you taste different flavors of food?",
+    q:
+      'Your tongue helps you taste different flavors of food? <br> <img src="../Science Page/img/tongue.PNG" alt="tongue" width="50%,mkjhz" height="10%" style="margin:auto;">',
     options: ["True", "False"],
     answer: 0,
   },
   {
-    q: "Your skin helps you feel things?",
+    q:
+      'Your skin helps you feel things? <br> <img src="../Science Page/img/skin-hand.PNG" alt="skin/hand" width="50%,mkjhz" height="10%" style="margin:auto;">',
     options: ["True", "False"],
     answer: 0,
   },
@@ -113,12 +122,12 @@ const unit3 = [
   },
   {
     q: "Makes the food of the plant.",
-    options: ["Stem", "Flower",  "Leaf"],
+    options: ["Stem", "Flower", "Leaf"],
     answer: 2,
   },
   {
     q: "Produces the seeds and become fruits.",
-    options: [ "Leaf", "Stem", "Flower"],
+    options: ["Leaf", "Stem", "Flower"],
     answer: 2,
   },
   {
@@ -143,7 +152,7 @@ const unit3 = [
   },
   {
     q: "Breathes in air.",
-    options: ["Flower", "Stem","Leaf"],
+    options: ["Flower", "Stem", "Leaf"],
     answer: 2,
   },
   {
@@ -181,7 +190,7 @@ const unit4 = [
   },
   {
     q: "What do RABBIT eats",
-    options: ["carrot", "fish","bone"],
+    options: ["carrot", "fish", "bone"],
     answer: 0,
   },
   {
@@ -243,7 +252,7 @@ const unit5 = [
   },
   {
     q: "Is a landform that rises high above its surroundings.",
-    options: ["Mountain", "Valley","Hills"],
+    options: ["Mountain", "Valley", "Hills"],
     answer: 0,
   },
   {

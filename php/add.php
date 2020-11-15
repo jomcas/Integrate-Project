@@ -18,7 +18,7 @@ if(isset($_POST['Submit'])){
 
 
         mysqli_query($mysqli, "INSERT INTO reg_stud (Last_Name,First_Name,Birthday,Age,Guard_Name,Email,Phone_Num,Username,Password) VALUES('$Last_Name','$First_Name','$Birthday','$Age','$Guard_Name','$Email','$Phone_Num','$Username','$Password')");
-        header('Location: http://localhost/main/html/loadingReg.html');
+        header('Location: http://localhost/Integrate-Project/html/loadingReg.html');
         exit();
           
 }

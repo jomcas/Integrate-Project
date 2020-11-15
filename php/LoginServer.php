@@ -16,6 +16,13 @@ if(isset($_POST['submit'])){
                $uname = $row['Username'];
                $password = $row['Password'];
                $_SESSION['User'] = $uname;
+               $_SESSION['Last_Name'] = $row['Last_Name'];
+               $_SESSION['First_Name'] = $row['First_Name'];
+               $_SESSION['Birthday'] = $row['Birthday'];
+               $_SESSION['Age'] = $row['Age'];
+               $_SESSION['Guard_Name'] = $row['Guard_Name'];
+               $_SESSION['Email'] = $row['Email'];
+               $_SESSION['Phone_Num'] = $row['Phone_Num'];
                header('location: ../html/loadingMain.html');
                exit();
 
@@ -25,12 +32,12 @@ if(isset($_POST['submit'])){
                $uname = $row['Username'];
                $password = $row['Password'];
                $_SESSION['AdminUser'] = $uname;
-               header('location: http://localhost/main/php/AdminHome.php');
+               header('location: http://localhost/Integrate-Project/php/AdminHome.php');
                exit();
     }
     }else{
 
-        echo "<script>alert('Wrong Username and/or Password :('); window.location.href ='http://localhost/main/php/Login.php'</script>";
+        echo "<script>alert('Wrong Username and/or Password :('); window.location.href ='http://localhost/Integrate-Project/php/Login.php'</script>";
         exit();
 
     }
@@ -39,7 +46,3 @@ if(isset($_POST['submit'])){
 }    
 
  ?>
-
- 
-
- 
