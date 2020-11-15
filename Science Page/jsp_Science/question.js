@@ -2,47 +2,55 @@
 const unit1 = [
   {
     q:
-      'What is NOSE for?  <br> <img src="../Science Page/img/animals.PNG" alt="Smelling" width="100%,mkjhz" height="10%"',
+      'What is NOSE for? <br> <img src="../Science Page/img/nose.PNG" alt="nose" width="50%,mkjhz" height="10%" margin="auto">',
     options: ["Tasting", "Smelling", "Seeing"],
     answer: 1,
   },
   {
-    q: "What is TONGUE for?",
+    q:
+      'What is TONGUE for? <br> <img src="../Science Page/img/tongue.PNG" alt="tongue" width="50%,mkjhz" height="5%" style="margin:auto;">',
     options: ["Touching", "Smelling", "Tasting"],
     answer: 2,
   },
   {
-    q: "What is HANDS for?",
+    q:
+      'What is HANDS for? <br> <img src="../Science Page/img/skin-hand.PNG" alt="hands" width="50%,mkjhz" height="5%" style="margin:auto;">',
     options: ["Hearing", "Touching", "Tasting"],
     answer: 1,
   },
   {
-    q: "What is EAR for?",
+    q:
+      'What is EAR for? <br> <img src="../Science Page/img/ears.PNG" alt="ear" width="50%,mkjhz" height="5%" style="margin:auto;">',
     options: ["Seeing", "Hearing", "Tasting"],
     answer: 1,
   },
   {
-    q: "What is EYES for?",
+    q:
+      'What is EYES for? <br> <img src="../Science Page/img/eyes.PNG" alt="eyes" width="50%,mkjhz" height="5%" style="margin:auto;">',
     options: ["Seeing", "Smelling", "Tasting"],
     answer: 0,
   },
   {
-    q: "Your ears help you hear sounds?",
+    q:
+      'Your ears help you hear sounds?  <br> <img src="../Science Page/img/ears.PNG" alt="ear" width="50%,mkjhz" height="5%" style="margin:auto;">',
     options: ["True", "False"],
     answer: 0,
   },
   {
-    q: "Your nose help you taste food?",
+    q:
+      'Your nose help you taste food?  <br> <img src="../Science Page/img/nose.PNG" alt="nose" width="50%,mkjhz" height="10%" style="margin:auto;">',
     options: ["True", "False"],
     answer: 1,
   },
   {
-    q: "Your tongue helps you taste different flavors of food?",
+    q:
+      'Your tongue helps you taste different flavors of food? <br> <img src="../Science Page/img/tongue.PNG" alt="tongue" width="50%,mkjhz" height="10%" style="margin:auto;">',
     options: ["True", "False"],
     answer: 0,
   },
   {
-    q: "Your skin helps you feel things?",
+    q:
+      'Your skin helps you feel things? <br> <img src="../Science Page/img/skin-hand.PNG" alt="skin/hand" width="50%,mkjhz" height="10%" style="margin:auto;">',
     options: ["True", "False"],
     answer: 0,
   },
