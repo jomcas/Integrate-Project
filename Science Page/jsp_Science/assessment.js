@@ -136,6 +136,7 @@ function quizOver() {
   // show result box
   resultBox.classList.remove("hide");
   quizResult();
+  alert("Assessment Recorded");
 }
 
 function quizResult() {
@@ -148,7 +149,7 @@ function quizResult() {
     percentage.toFixed(2) + "%";
   document.getElementById("scoreToDB").setAttribute("value", correctAnswers);
   resultBox.querySelector(".total-score").innerHTML = correctAnswers;
-  saveToDb()
+  saveToDb();
 }
 
 //Ajax save score and other data to database.

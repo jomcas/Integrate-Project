@@ -13,31 +13,31 @@
     </div>
     <div class= "progress">
         <div>
-            <a href="http://localhost/main/html/subject_topic.html">
+            <a href="../html/subject_topic.html">
             <img src="../images/pencil_subjects.svg" alt="pic.svg" class= "subject"><br>
         </a>
         </div>
             <br>
         <div>
-            <a href="http://localhost/main/php/accounts.php">
+            <a href="../php/accounts.php">
             <img src="../images/pencil_accounts.svg"alt="pic.svg" class= "account"><br>
         </a>
         </div>
             <br>
         <div>
-            <a href="http://localhost/main/html/subject_result.html">
+            <a href="../html/subject_result.php">
             <img src="../images/pencil_results.svg" alt="pic.svg" class= "results"><br>
         </a>
         </div>
             <br>
         <div>
-            <a href="http://localhost/main/html/game.html">
+            <a href="../html/game.html">
             <img src="../images/pencil_minigames.svg" alt="pic.svg" class= "mini"><br>
         </a>
         </div>
             <br>
         <div>
-            <a href="http://localhost/main/html/subject_progress.html">
+            <a href="../html/subject_progress.html">
             <img src="../images/pencil_progress.svg" alt="pic.svg" class= "themes"><br>
         </a>
         </div>
