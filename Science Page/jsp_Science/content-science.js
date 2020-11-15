@@ -87,7 +87,6 @@ else if (
 } else if (
   sessionStorage.getItem("ID") == 5 &&
   sessionStorage.getItem("lessonID") == 3
-  
 ) {
   url = "https://www.youtube.com/embed/AUinjnfsDH8?controls=0";
   youtubeVid(url);
@@ -147,6 +146,20 @@ function createAssessmentBtn() {
   //displayed on button
   var text = document.createTextNode("Assessment");
   // appending text to button
+
+  // button style
+  var style = document.createElement("style");
+  style.type = "text/css";
+  style.innerHTML =
+    ".createAssessmentBtn  { position: absolute; top:85%;" +
+    "left: 45%;" +
+    "background-color: yellow; color: black;" +
+    "text-align: center;border-color: white;height: 50px ! important;" +
+    "width: 140px;border-radius: 50px;padding: 10x 17px; border-width: thin" +
+    "margin: auto;}";
+  document.head.appendChild(style);
+  button.className = "createAssessmentBtn";
+
   button.appendChild(text);
   button.onclick = hi;
   // appending button to div
