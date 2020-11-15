@@ -17,6 +17,7 @@ if(isset($_POST['submit'])){
                $password = $row['Password'];
                $_SESSION['User'] = $uname;
                $_SESSION['First_Name'] = $row['First_Name'];
+               $_SESSION['User_Id'] = $row['id']; 
                header('location: ../html/loadingMain.html');
                exit();
 

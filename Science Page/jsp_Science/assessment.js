@@ -159,7 +159,6 @@ function saveToDb(){
   var status = getScoreStatus(passingScore);
 
   $.post('php_Science/connect-to-db.php',{
-
     lesson_name: lesson_name,
     score: correctAnswers,
     passing_score: passingScore,
