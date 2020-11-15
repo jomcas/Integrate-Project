@@ -32,7 +32,6 @@
             <a href="http://localhost/Integrate-Project/php/accounts.php">
 
                 <a href="../php/accounts.php">
-                    >>>>>>> pr/2
                     <img src="../images/pencil_accounts.svg" alt="pic.svg" class="account"><br>
                 </a>
         </div>
