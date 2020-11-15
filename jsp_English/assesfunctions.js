@@ -118,12 +118,18 @@ function updateAnswerIndicator(markType) {
 }
 
 function next() {
-    if (questionCounter === quiz.length) {
-        console.log('quiz over');
-        quizOver();
-    } else {
-        getNewQuestion();
+    if(next_page == false){
+        alert("Please select an option");
+    }else{
+        if (questionCounter === quiz.length) {
+            console.log('quiz over');
+            quizOver();
+        } else {
+            getNewQuestion();
+        }
     }
+    next_page = false;
+    
 }
 
 function quizOver() {
