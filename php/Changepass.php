@@ -97,7 +97,6 @@ if(isset($_POST['submit'])){
         </header>
         <ul>
         <a href="http://localhost/Integrate-Project/php/AdminHome.php"><li tabindex="0" class="Users"><span>Users</span></li></a>
-            <li tabindex="0" class="Audit"><span>Audit Log</span></li>
             <a href="http://localhost/Integrate-Project/php/Changepass.php"><li tabindex="0" class="Password"><span>Password</span></li></a>
             <a href="http://localhost/Integrate-Project/php/logout.php"><li tabindex="0" class="Logout"><span>Logout</span></li></a>
         </ul>
