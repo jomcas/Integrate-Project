@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+<?php session_start(); ?>
+
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,17 +22,19 @@
 </head>
 <body>
     <?php
+    echo $_SESSION['User_Id'];
         $servername = "localhost";
         $username = "root";
         $password = "";
         $dbname = "integratives";
+        $user_id = $_SESSION['User_Id'];
 
         $conn = new mysqli($servername, $username, $password, $dbname); // Create connection
         if ($conn->connect_error) {     // Check connection
             die("Connection failed: " . $conn->connect_error);
         } 
 
-        $sql = "SELECT * FROM science_table";
+        $sql = "SELECT * FROM science_table WHERE `user_fk`='" .$user_id. "'";
         $result = $conn->query($sql);
     ?>
 
@@ -49,6 +53,8 @@
                 <tr> 
                     <th>Lesson</th>
                     <th>Scores</th>
+                    <th>Passing Score</th>
+                    <th>No_Items</th>
                     <th>Status</th>
                 </tr>
             </thead>
@@ -57,10 +63,12 @@
             <?php
             // Populate Table
             while($row = $result->fetch_assoc()) {
-                echo '<tr>';
-                echo '<td>' .$row['Lesson_Name']. '</td>';
-                echo '<td>' .$row['Score']. '/' .$row['No_Items']. '</td>';
-                echo "<td><span class='label label-success' style='background-color: #332393;'>" .$row['Status']. '</td>';
+                    echo '<tr>';
+                    echo '<td>' .$row['Lesson_Name']. '</td>';
+                    echo '<td>' .$row['Score']. '/' .$row['No_Items']. '</td>';
+                    echo '<td>' .$row['Passing_Score']. '</td>';
+                    echo '<td>' .$row['No_Items']. '</td>';
+                    echo "<td><span class='label label-success' style='background-color: #332393;'>" .$row['Status']. '</td>';
             }
 
             $conn->close();
