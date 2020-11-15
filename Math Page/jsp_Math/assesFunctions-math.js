@@ -124,7 +124,7 @@ function updateAnswerIndicator(markType) {
 
 function next() {
     if (next_page == false) {
-        alert("Please select an option");
+        JSalert();
     } else {
         if (questionCounter === quiz.length) {
             console.log('quiz over');
@@ -135,6 +135,10 @@ function next() {
     }
     next_page = false;
 
+}
+
+function JSalert() {
+    swal("Sorry!", "Please Pick Your Answer", "error");
 }
 
 function quizOver() {
@@ -190,4 +194,3 @@ function start() {
 function goHome() {
     window.location.href = "../Math Page/topics_math.html";
 }
-
