@@ -17,9 +17,9 @@ $passing_score = mysqli_real_escape_string($conn, $_POST['passing_score']);
 $no_of_items = mysqli_real_escape_string($conn, $_POST['no_of_items']);
 $status = mysqli_real_escape_string($conn, $_POST['status']);
 
-$sql = "INSERT INTO science_table (user_fk,Lesson_Name,Score,Passing_Score,No_Items,Status)
+$sql = "INSERT INTO english_table (user_fk,Lesson_Name,Score,Passing_Score,No_Items,Status)
 VALUES ('$user_fk','$lesson_name', '$score', '$passing_score', '$no_of_items','$status')";
-
+echo "<script>alert('Here')</script>";
 if ($conn->query($sql) === TRUE) {
     echo "Score saved!";
 } else {
