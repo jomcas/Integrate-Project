@@ -432,7 +432,7 @@ function createNextBtn4(i){
 }
 
 function createNextBtn5(i){
-    var myDiv = document.getElementById("marker");          t  
+    var myDiv = document.getElementById("marker");          
     var button = document.createElement('BUTTON'); 
     var text = document.createTextNode("Next"); 
  
@@ -448,7 +448,7 @@ function createNextBtn5(i){
     else if (i==4){
         button.onclick =nextUrl5_4;
     }
-    myDiv.appendChild(button); ;  
+    myDiv.appendChild(button); 
 }
 
 function createNextBtn6(i) {
