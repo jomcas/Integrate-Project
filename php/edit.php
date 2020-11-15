@@ -20,7 +20,7 @@ if(isset($_POST['update'])){
 }
 
 if(isset($_POST['cancel'])){
-	header('Location: http://localhost/IntegrativeProj/php/AdminHome.php');
+	header('Location: http://localhost/Integrate-Project/php/AdminHome.php');
 }
 ?>
 <?php

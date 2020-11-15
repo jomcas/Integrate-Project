@@ -1,4 +1,9 @@
-body{
+@font-face {
+    font-family: "crosshatcher";
+    src: url("../Fonts/Crosshatcher.otf") format("opentype");
+}
+
+body {
     margin-top: 0;
     margin-right: 0;
     overflow-x: hidden;
@@ -8,67 +13,105 @@ body{
     /* width: 10px; */
     background-size: 100%;
 }
-div.board{
+
+div.board {
     float: left;
     height: 55%;
     width: 45%;
 }
-.board{
-   max-width: 110%;
-   max-height: 100%;
+
+.board {
+    max-width: 110%;
+    max-height: 100%;
 }
-.progress{
+
+.progress {
     margin: 60px auto;
     margin-right: -8%;
     float: right;
     height: 55%;
     width: 50%;
 }
-.subject{
+
+.subject {
     max-width: 100%;
     max-height: 100%;
-}   
-.subject:hover{
-    transform:  translate(-15%);
+}
+
+.subject:hover {
+    transform: translate(-15%);
     transition: 1s;
 }
-.account{
+
+.account {
     max-width: 100%;
-   max-height: 100%;
+    max-height: 100%;
 }
-.account:hover{
-    transform:  translate(-15%);
-    transition:  1s;
+
+.account:hover {
+    transform: translate(-15%);
+    transition: 1s;
 }
-.results{
+
+.results {
     max-width: 100%;
-   max-height: 100%;
+    max-height: 100%;
 }
-.results:hover{
-    transform:  translate(-15%);
-    transition:  1s;
+
+.results:hover {
+    transform: translate(-15%);
+    transition: 1s;
 }
-.mini{
+
+.mini {
     max-width: 100%;
-   max-height: 100%;
+    max-height: 100%;
 }
-.mini:hover{
-    transform:  translate(-15%);
-    transition:  1s;
+
+.mini:hover {
+    transform: translate(-15%);
+    transition: 1s;
 }
-.themes{
+
+.themes {
     max-width: 100%;
-   max-height: 100%;
+    max-height: 100%;
 }
-.themes:hover{
-    transform:  translate(-15%);
-    transition:  1s;
+
+.themes:hover {
+    transform: translate(-15%);
+    transition: 1s;
 }
-.settings{
+
+.settings {
     max-width: 100%;
-   max-height: 100%;
+    max-height: 100%;
 }
-.settings:hover{
-    transform:  translate(-15%);
-    transition:  1s;
+
+.settings:hover {
+    transform: translate(-15%);
+    transition: 1s;
+}
+
+
+/* .welcome {
+    margin-left: 475px;
+    margin-top: -500px;
+} */
+
+h1,
+h2 {
+    color: white;
+    font-family: crosshatcher;
+    font-size: 70px;
+}
+
+h1 {
+    margin-left: 345px;
+    margin-top: -580px;
+}
+
+h2 {
+    margin-left: 345px;
+    margin-top: -50px;
 }

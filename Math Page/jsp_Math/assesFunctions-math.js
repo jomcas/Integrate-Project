@@ -188,6 +188,6 @@ function start() {
 }
 
 function goHome() {
-    window.location.href = "/Math Page/topics_math.html";
+    window.location.href = "../Math Page/topics_math.html";
 }
 
