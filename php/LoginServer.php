@@ -16,7 +16,13 @@ if(isset($_POST['submit'])){
                $uname = $row['Username'];
                $password = $row['Password'];
                $_SESSION['User'] = $uname;
+               $_SESSION['Last_Name'] = $row['Last_Name'];
                $_SESSION['First_Name'] = $row['First_Name'];
+               $_SESSION['Birthday'] = $row['Birthday'];
+               $_SESSION['Age'] = $row['Age'];
+               $_SESSION['Guard_Name'] = $row['Guard_Name'];
+               $_SESSION['Email'] = $row['Email'];
+               $_SESSION['Phone_Num'] = $row['Phone_Num'];
                header('location: ../html/loadingMain.html');
                exit();
 
@@ -40,7 +46,3 @@ if(isset($_POST['submit'])){
 }    
 
  ?>
-
- 
-
- 

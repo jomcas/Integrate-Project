@@ -14,15 +14,11 @@ $percentage = ($done / $total) * 100;
 
 // Array of lessons
 
-$topics = ["Oral Language",
-            "Phonological Skills",
-            "Phonics and Word Recognition", 
-            "Grammar",
-            "Vocabulary and Concept Development",
-            "Listening Comprehension", 
-            "Reading Comprehension",
-            "Language and literature",
-            "Book and Print Knowledge"
+$topics = [ "Human Body Parts",
+            "Living Things",
+            "Plants", 
+            "Animals",
+            "Non-Living Things"
           ];
 ?>
 
@@ -48,31 +44,31 @@ $topics = ["Oral Language",
             <button class="btn_back">BACK</button>
         </a>
 
-    <?php for($i = 1; $i <= $total; $i++) { ?>
+        <?php for($i = 1; $i <= $total; $i++) { ?>
 
-    <!-- done -->
-    <?php if($i <= ($done)) { ?>
+        <!-- done -->
+        <?php if($i <= ($done)) { ?>
         <div class="circle<?=$i?>" onclick="showID(<?=$i?>)">
             <img src="../../images/science_passed.svg" alt="" class="circle" id="circle">
         </div>
 
-    <!-- current -->
-    <?php } else if($i == ($done + 1)) { ?>
+        <!-- current -->
+        <?php } else if($i == ($done + 1)) { ?>
 
         <div class="circle<?=$i?>" onclick="showID(<?=$i?>)">
             <!-- make assets for math circ  -->
             <img src="../../images/science_circ<?=$i?>.svg" alt="" class="circle" id="circle">
         </div>
 
-    <!-- locked -->
-    <?php }  else { ?>
-        <div class="circle<?=$i?>" onclick="" >
+        <!-- locked -->
+        <?php }  else { ?>
+        <div class="circle<?=$i?>" onclick="">
             <img src="../../images/science_lock.svg" alt="" class="circle" id="circle">
         </div>
-    <?php } ?>
+        <?php } ?>
 
 
-    <?php } ?>
+        <?php } ?>
 
     </div>
 
@@ -81,7 +77,7 @@ $topics = ["Oral Language",
 </body>
 
 </html>
-    <script src="../jsp_Science/progress.js"></script>
+<script src="../jsp_Science/progress.js"></script>
 </body>
 
 </html>
