@@ -60,9 +60,10 @@
                     <img src="../images/ScienceAsset.png" class="card-img-top" alt="...">
                     <div class="card-body text-center shadow p-3 mb-5" style="background-color: #573C8C;">
                         <h5 class="card-title">SCIENCE</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sodales
-                            massa nec consectetur dictum. Nulla nulla eros, pellentesque nec faucibus vel, facilisis nec
-                            purus.</p>
+                        <p class="card-text">Welcome to science this is the new beginning of another chapter where
+                            science will be your friend. It aims to provide young children's curiosity to be answered by
+                            science and discover more, evidently this website will help young minds to expand their
+                            cognition to different forms.</p>
                     </div>
                 </div>
             </a>
@@ -81,4 +82,5 @@
         </div>
     </div>
 </body>
+
 </html>
