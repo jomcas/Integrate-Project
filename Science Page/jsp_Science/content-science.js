@@ -77,6 +77,7 @@ else if (
 ) {
   url = "https://www.youtube.com/embed/vz62QZlVpqw?controls=0";
   youtubeVid(url);
+  createNextBtn();
 } else if (
   sessionStorage.getItem("ID") == 5 &&
   sessionStorage.getItem("lessonID") == 2
@@ -138,14 +139,17 @@ function hi() {
   window.location.href = "../Science Page/assessment_sci.html";
 }
 
+function nextButtonLoc() {
+  window.location.href = "../Science Page/assessment_sci.html";
+}
+
 function createAssessmentBtn() {
-  var myDiv = document.getElementById("marker");
   // creating button element
-  var button = document.createElement("BUTTON");
+  var myDiv = document.getElementById("marker");
   // creating text to be
+  var button = document.createElement("BUTTON");
   //displayed on button
   var text = document.createTextNode("Assessment");
-  // appending text to button
 
   // button style
   var style = document.createElement("style");
@@ -160,8 +164,18 @@ function createAssessmentBtn() {
   document.head.appendChild(style);
   button.className = "createAssessmentBtn";
 
+  // appending text to button
   button.appendChild(text);
   button.onclick = hi;
   // appending button to div
   myDiv.appendChild(button);
+}
+
+function createNextBtn() {
+  var nextDiv = document.getElementById("next-btn");
+  var nextBtn = document.createElement("BUTTON");
+  var text = document.createTextNode("Next");
+  nextBtn.appendChild(text);
+  button.onclick = nextButtonLoc;
+  nextDiv.appendChild(nextBtn);
 }
