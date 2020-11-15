@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<?php session_start(); ?>    
 
 <head>
     <title>Pick Subject</title>
@@ -82,5 +83,5 @@
         </div>
     </div>
 </body>
-
+</html>
 </html>
