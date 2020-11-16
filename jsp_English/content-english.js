@@ -220,15 +220,8 @@ else if (sessionStorage.getItem("ID") == 7 && sessionStorage.getItem("lessonID")
 else if (sessionStorage.getItem("ID") == 7 && sessionStorage.getItem("lessonID") == 5) {
     url = 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/llanetaje_students_national-u_edu_ph/Eewk_Bl_hghAqLi6kZFgl8QBP84NCKRx5-abtmLiPjtB3g?e=nMNVBJ';
     powerpoint(url);
-    createNextBtn7(5);
-}
-else if (sessionStorage.getItem("ID") == 7 && sessionStorage.getItem("lessonID") == 6) {
-    url = 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/llanetaje_students_national-u_edu_ph/ESUNNZv3WfdBrShE2J-p0QgB7guJRxRvSBflVbqR3EHAIQ?e=aPEysF';
-    powerpoint(url);
     createAssessmentBtn();
-
 }
-
 
 //8
 else if (sessionStorage.getItem("ID") == 8 && sessionStorage.getItem("lessonID") == 1) {
@@ -329,7 +322,7 @@ function powerpoint(url) {
 }
 
 function hi() {
-    window.location.href = "/English Page/assessment_english.html";
+    window.location.href = "../English Page/assessment_english.html";
 }
 
 function createAssessmentBtn() {
@@ -432,7 +425,7 @@ function createNextBtn4(i){
 }
 
 function createNextBtn5(i){
-    var myDiv = document.getElementById("marker");          t  
+    var myDiv = document.getElementById("marker");          
     var button = document.createElement('BUTTON'); 
     var text = document.createTextNode("Next"); 
  
@@ -448,7 +441,7 @@ function createNextBtn5(i){
     else if (i==4){
         button.onclick =nextUrl5_4;
     }
-    myDiv.appendChild(button); ;  
+    myDiv.appendChild(button);
 }
 
 function createNextBtn6(i) {

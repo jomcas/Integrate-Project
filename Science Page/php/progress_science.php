@@ -1,10 +1,13 @@
 <?php
-include "../../connection/connection.php";
+include "../../php/config.php";
 
 $con = connection();
 
+session_start();
 
-$sql = "SELECT * from progress WHERE progress_id = 5";
+$id = $_SESSION['id'];
+
+$sql = "SELECT * from progress WHERE user_id = '$id' AND subject = 'SCIENCE'";
 $progress = $con->query($sql) or die ($con->error);
 $row = $progress->fetch_assoc();
 $total = $row["total"];
@@ -12,14 +15,6 @@ $done = $row["done"];
 
 $percentage = ($done / $total) * 100;
 
-// Array of lessons
-
-$topics = [ "Human Body Parts",
-            "Living Things",
-            "Plants", 
-            "Animals",
-            "Non-Living Things"
-          ];
 ?>
 
 
