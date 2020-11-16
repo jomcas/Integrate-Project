@@ -154,27 +154,58 @@ function quizResult() {
     resultBox.querySelector(".percentage").innerHTML = percentage.toFixed(2) + "%";
     document.getElementById("scoreToDB").setAttribute("value", correctAnswers);
     resultBox.querySelector(".total-score").innerHTML = correctAnswers;
+    saveToDb();
+}
 
+function saveToDb() {
+    //get 80% of the total number of questions
+    var passingScore = Math.round(quiz.length * 80 * 0.01);
+    var status = getScoreStatus(passingScore);
+
+    $.post("../Math Page/php/connect-to-db.php", {
+        lesson_name: lesson_name,
+        score: correctAnswers,
+        passing_score: passingScore,
+        no_of_items: quiz.length,
+        status: status,
+    });
+}
+
+//get score status if pass or fail
+function getScoreStatus(passingScore) {
+    if (correctAnswers >= passingScore) {
+        return "passed";
+    }
+    return "failed";
 }
 
 function start() {
     if (sessionStorage.getItem("ID") == 1) {
         quiz = math1;
+        lesson_name = "Counting Numbers";
     } else if (sessionStorage.getItem("ID") == 2) {
         quiz = math2;
+        lesson_name = "Addition"
     } else if (sessionStorage.getItem("ID") == 3) {
         quiz = math3;
+        lesson_name = "Subtraction";
     } else if (sessionStorage.getItem("ID") == 4) {
         quiz = math4;
+        lesson_name = "Fraction";
     } else if (sessionStorage.getItem("ID") == 5) {
         quiz = math5;
+        lesson_name = "Money";
     } else if (sessionStorage.getItem("ID") == 6) {
         quiz = math6;
+        lesson_name = "Shapes";
     } else if (sessionStorage.getItem("ID") == 7) {
         quiz = math7;
+        lesson_name = "Time";
     } else if (sessionStorage.getItem("ID") == 8) {
         quiz = math8;
+        lesson_name = "Measurement";
     }
+
     // hide home box
 
     // show quizbox
