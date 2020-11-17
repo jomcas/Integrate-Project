@@ -6,8 +6,8 @@
 if (sessionStorage.getItem("ID") === "1") {
   var titles = ["Main Body Parts", "Sense Organs"];
   var imageLoc = [
-    "../Science Page/img/parts.png",
-    "../Science Page/img/sense-organs.png",
+    "../Science Page/img/thumbnails/parts.png",
+    "../Science Page/img/thumbnails/sense-organs.png",
   ];
   var subcontent = [
     "The human body is everything that makes up, well, you. The basic parts of the human body are the head, neck, torso, arms and legs.",
@@ -19,8 +19,8 @@ if (sessionStorage.getItem("ID") === "1") {
 } else if (sessionStorage.getItem("ID") === "2") {
   var titles = ["Living Things", "Non-living Things"];
   var imageLoc = [
-    "../Science Page/img/livingt.png",
-    "../Science Page/img/non-living.png",
+    "../Science Page/img/thumbnails/livingt.png",
+    "../Science Page/img/thumbnails/non-living.png",
   ];
   var subcontent = [
     "A living thing has life. Human beings, animals, and plants are living things too. Each has characteristics that set it aprt from others.",
@@ -31,7 +31,7 @@ if (sessionStorage.getItem("ID") === "1") {
   }
 } else if (sessionStorage.getItem("ID") === "3") {
   var titles = ["Parts of the Plants"];
-  var imageLoc = ["../Science Page/img/plants.png"];
+  var imageLoc = ["../Science Page/img/thumbnails/plants.png"];
   var subcontent = [
     "They can be found in different places. They have characteristics that are similar to those of humans and animals.",
   ];
@@ -46,10 +46,10 @@ if (sessionStorage.getItem("ID") === "1") {
     "Mother and Baby Animals",
   ];
   var imageLoc = [
-    "../Science Page/img/animals.png",
-    "../Science Page/img/animals-food.png",
-    "../Science Page/img/animals-habitat.png",
-    "../Science Page/img/mother-baby.png",
+    "../Science Page/img/thumbnails/animals.png",
+    "../Science Page/img/thumbnails/animals-food.png",
+    "../Science Page/img/thumbnails/animals-habitat.png",
+    "../Science Page/img/thumbnails/mother-baby.png",
   ];
   var subcontent = [
     "Students can explore different kind of animals such as Tame and Wild one's.",
@@ -63,10 +63,10 @@ if (sessionStorage.getItem("ID") === "1") {
 } else if (sessionStorage.getItem("ID") === "5") {
   var titles = ["Transportation", "Weather", "Land Forms", "Water Forms"];
   var imageLoc = [
-    "../Science Page/img/transportation.png",
-    "../Science Page/img/weather.png",
-    "../Science Page/img/land-forms.png",
-    "../Science Page/img/water-forms.png",
+    "../Science Page/img/thumbnails/transportation.png",
+    "../Science Page/img/thumbnails/weather.png",
+    "../Science Page/img/thumbnails/land-forms.png",
+    "../Science Page/img/thumbnails/water-forms.png",
   ];
   var subcontent = [
     "a vehicle that you can travel or carry goods.",
