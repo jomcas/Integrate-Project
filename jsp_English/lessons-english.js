@@ -7,8 +7,17 @@ if(sessionStorage.getItem("ID") === "1"){
     "../English Page/img/Oral4.PNG",
     "../English Page/img/Oral5.PNG"
 ];
+
+    var subcontent = [
+    "In this lesson it will teach you how to use or respond to greetings, leave takings and expressing gratitude and apology.",
+    "In this lesson it will teach you how to sing nursery rhymes and kids songs.",
+    "In this lesson it will teach you how to have good manners to your elders.",
+    "In this lesson it will teach you how to have good manners to the people around you.",
+    "In this lesson it will teach you how to sing the feeling song."
+];
+
     for(var temp= 1;temp<=titles.length;temp++){
-        Populate(temp,titles[temp-1], img_loc[temp-1]);
+        Populate(temp,titles[temp-1], img_loc[temp-1], subcontent[temp - 1]);
     }
     
 }else if(sessionStorage.getItem("ID") === "2"){
@@ -20,8 +29,17 @@ if(sessionStorage.getItem("ID") === "1"){
     "../English Page/img/phono4.PNG",
     "../English Page/img/phono5.png"
     ];
+
+    var subcontent = [
+        "In this lesson it will teach you english alphabets through the use of singing.",
+        "In this lesson it will teach you the ABC Phonics song through singing.",
+        "In this lesson it will tells you poems for kids.",
+        "In this lesson it will tells you Phonics english story of A.",
+        "In this lesson it will teach you how to write alphabetical letters."
+];
+
     for(var temp= 1;temp<=titles.length;temp++){
-        Populate(temp,titles[temp-1], img_loc[temp-1]);
+        Populate(temp,titles[temp-1], img_loc[temp-1],subcontent[temp - 1]);
     }
 
 }else if(sessionStorage.getItem("ID") === "3"){
@@ -41,8 +59,19 @@ if(sessionStorage.getItem("ID") === "1"){
     "../English Page/img/grammar6.PNG",
     "../English Page/img/grammar7.PNG"
     ];
+
+    var subcontent = [
+        "In this lesson it will teach you about noun. Noun is a word and it's a part of speech.",
+        "In this lesson it will teach you about pronouns. Pronoun is a word that is used instead of a noun.",
+        "In this lesson it will teach you about Vowels & Consonants. There are 26 english alphabet letters, 5 of which are vowels and the rest of the alphabets are consonants.",
+        "In this lesson it will teach you how to use Past, Present and Future tense.",
+        "In this lesson it will teach you on describing words adjectives. Adjectives are describing words.",
+        "In this lesson it will teach you how to use Prefix and Suffix through singing.",
+        "In this lesson it will teach you how to use Position Words - Preposition. Preposition is a word that tells us where a person,animal,thing or place is."
+];
+
     for(var temp= 1;temp<=titles.length;temp++){
-        Populate(temp,titles[temp-1], img_loc[temp-1]);
+        Populate(temp,titles[temp-1], img_loc[temp-1],subcontent[temp - 1]);
     }
     
 }else if(sessionStorage.getItem("ID") === "5"){
@@ -54,8 +83,17 @@ if(sessionStorage.getItem("ID") === "1"){
     "../English Page/img/thumbnail_synonyms.png",
     "../English Page/img/thumbnail_vocabulary.png"
     ];
+
+    var subcontent = [
+        "In this lesson it will teach you what is homonyms and how will you use it in a sentence.",
+        "In this lesson it will teach you what is Homophones and how will you use it in a sentence.",
+        "In this lesson it is the continuation of the earlier lesson of Homophones.",
+        "In this lesson it will teach you how to use synonyms and antonyms.",
+        "In this lesson it will teach you what is vocabulary and concept development, it will also teach you how to implement this lesson in your daily lives."
+];
+
     for(var temp= 1;temp<=titles.length;temp++){
-        Populate(temp,titles[temp-1], img_loc[temp-1]);
+        Populate(temp,titles[temp-1], img_loc[temp-1],subcontent[temp - 1]);
     }
     
 }else if(sessionStorage.getItem("ID") === "6"){
@@ -68,8 +106,17 @@ if(sessionStorage.getItem("ID") === "1"){
     "../English Page/img/Lis4.png",
     "../English Page/img/Lis5.png"
     ];
+
+    var subcontent = [
+        "In this lesson it will teach you on how to listen carefully through the use of listening test.",
+        "In this lesson it will teach you on how to listen carefully through the use of listening test.",
+        "In this lesson it will teach you on how to listen carefully through the use of listening test.",
+        "In this lesson it will teach you on how to listen carefully through the use of listening test.",
+        "In this lesson it will teach you on how to listen carefully through the use of listening test."
+];
+
     for(var temp= 1;temp<=titles.length;temp++){
-        Populate(temp,titles[temp-1], img_loc[temp-1]);
+        Populate(temp,titles[temp-1], img_loc[temp-1],subcontent[temp - 1]);
     }
     
 }else if(sessionStorage.getItem("ID") === "7"){
@@ -81,8 +128,18 @@ if(sessionStorage.getItem("ID") === "1"){
     "../English Page/img/read4.PNG",
     "../English Page/img/read5.PNG"
     ];
+
+    
+    var subcontent = [
+        "In this lesson you will read and learn the story of Jack and the Beanstalk.",
+        "In this lesson you will read and learn the story of The Five W's.",
+        "In this lesson you will read and learn the story of The Stone Soup.",
+        "In this lesson you will read and learn the story of The Ugly Duckling.",
+        "In this lesson you will read and learn the life cycle of a butterfly."
+];
+
     for(var temp= 1;temp<=titles.length;temp++){
-        Populate(temp,titles[temp-1], img_loc[temp-1]);
+        Populate(temp,titles[temp-1], img_loc[temp-1],subcontent[temp - 1]);
     }
 }else if(sessionStorage.getItem("ID") === "8"){
     var titles=["Rani's First Day At School","Reba Wants Ice Cream","Goby's noisy friend","The Clever Rabbit ","The Right Way School", "The Magic Mirror", "The Storybook Princess"];  
@@ -95,8 +152,19 @@ if(sessionStorage.getItem("ID") === "1"){
     "../English Page/img/LangLit6.png",
     "../English Page/img/LangLit7.png"
     ];
+
+    var subcontent = [
+        "In this lesson you will read and learn the story of Rani's first day at school.",
+        "In this lesson you will read and learn the story of Reba wants ice cream.",
+        "In this lesson you will read and learn the story of Gaby's noisy friend.",
+        "In this lesson you will read and learn the story of The Clever Rabbit.",
+        "In this lesson you will read and learn the story of The right way to school.",
+        "In this lesson you will read and learn the story of The Magic Mirror.",
+        "In this lesson you will read and learn the story of The Storybook princess."
+];
+
     for(var temp= 1;temp<=7;temp++){
-        Populate(temp,titles[temp-1], img_loc[temp-1]);  
+        Populate(temp,titles[temp-1], img_loc[temp-1],subcontent[temp - 1]);  
     }
 }else if(sessionStorage.getItem("ID") === "9"){
     var titles=["Parts of the Books","Print awareness","Mark it!","What We Like About Stories","What do you do with a Book"];
@@ -107,8 +175,17 @@ if(sessionStorage.getItem("ID") === "1"){
     "../English Page/img/book4.PNG",
     "../English Page/img/book5.PNG"
     ];
+
+    var subcontent = [
+        "In this lesson it will teach you the parts of a book using creative stop motion.",
+        "In this lesson it will teach you what is a book and how it is used.",
+        "In this lesson it will teach you what is a sentence through singing.",
+        "In this lesson it will teach you how books are made. many people work together to make a book such as author, illustrator, editor etc.",
+        "In this lesson it will teach you how to read Mr. Wiggle's Book."
+];
+
     for(var temp= 1;temp<=5;temp++){
-        Populate(temp,titles[temp-1], img_loc[temp-1]);
+        Populate(temp,titles[temp-1], img_loc[temp-1],subcontent[temp - 1]);
     }
 }else if(sessionStorage.getItem("ID") === "9"){
     var titles=[""];
@@ -117,7 +194,7 @@ if(sessionStorage.getItem("ID") === "1"){
     }
 }
 
-function Populate(temp,Head_title,img_loc){
+function Populate(temp,Head_title,img_loc,subcontent_text){
      //lesson content
 let container = document.createElement('div');
 container.className = "container-eng";
@@ -150,7 +227,7 @@ title.appendChild(titletext);
 let hrline= document.createElement("hr");
 
 let textcontent = document.createElement("h3");
-var content = document.createTextNode("Subcontent");
+var content = document.createTextNode(subcontent_text);
 textcontent.appendChild(content);
 //
 
