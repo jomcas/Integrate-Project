@@ -5,7 +5,7 @@ $con = connection();
 
 session_start();
 
-$id = $_SESSION['id'];
+$id = $_SESSION['User'];
 
 $sql = "SELECT * from progress WHERE user_id = '$id' AND subject = 'SCIENCE'";
 $progress = $con->query($sql) or die ($con->error);
