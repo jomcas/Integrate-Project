@@ -76,7 +76,7 @@
             </tbody>
         </table>
     </div>
-    <script src="javascript.js"></script>
+    <!-- <script src="../javascript.js"></script> -->
 
 </body>
 

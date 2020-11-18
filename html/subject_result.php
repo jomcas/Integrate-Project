@@ -31,7 +31,7 @@
         <!-- SUBJECTS CONTAINER HERE -->
         <!-- ENGLISH -->
         <div class="row">
-            <a href="../English Page/result_english.html">
+            <a href="../English Page/result_english.php">
                 <div class="column hvr-grow" style="width: 300px;">
                     <img src="../images/EnglishAsset.png" class="card-img-top" alt="...">
                     <div class="card-body text-center shadow p-3 mb-5" style="background-color: #327b97;">
