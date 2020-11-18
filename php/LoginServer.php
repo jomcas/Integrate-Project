@@ -16,6 +16,7 @@ if(isset($_POST['submit'])){
                $uname = $row['Username'];
                $password = $row['Password'];
                $_SESSION['User'] = $uname;
+               $_SESSION['id'] = $row['id'];
                $_SESSION['Last_Name'] = $row['Last_Name'];
                $_SESSION['First_Name'] = $row['First_Name'];
                $_SESSION['Birthday'] = $row['Birthday'];
@@ -31,6 +32,7 @@ if(isset($_POST['submit'])){
         while($row = mysqli_fetch_assoc($Adminresults)){
                $uname = $row['Username'];
                $password = $row['Password'];
+               $_SESSION['id'] = $row['id'];
                $_SESSION['AdminUser'] = $uname;
                header('location: http://localhost/Integrate-Project/php/AdminHome.php');
                exit();

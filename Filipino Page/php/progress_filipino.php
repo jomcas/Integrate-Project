@@ -2,9 +2,10 @@
 include "../../connection/connection.php";
 
 $con = connection();
+session_start();
+$id = $_SESSION['id'];
 
-
-$sql = "SELECT * from progress WHERE progress_id = 3";
+$sql = "SELECT * from progress WHERE user_id = '$id' AND subject = 'FILIPINO'";
 $progress = $con->query($sql) or die ($con->error);
 $row = $progress->fetch_assoc();
 $total = $row["total"];
@@ -14,15 +15,11 @@ $percentage = ($done / $total) * 100;
 
 // Array of lessons
 
-$topics = ["Oral Language",
-            "Phonological Skills",
-            "Phonics and Word Recognition", 
-            "Grammar",
-            "Vocabulary and Concept Development",
-            "Listening Comprehension", 
-            "Reading Comprehension",
-            "Language and literature",
-            "Book and Print Knowledge"
+$topics = ["Alpabetong Filipino",
+            "Pagbuo ng Bagong Salita",
+            "PBuwan at Araw", 
+            "Mga Kulay At Hugis",
+            "Uri ng Prutas"
           ];
 ?>
 
@@ -33,7 +30,7 @@ $topics = ["Oral Language",
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Progress English</title>
+    <title>Progress Filipino</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="../../css/progress_filipino.css">
 </head>
@@ -44,7 +41,7 @@ $topics = ["Oral Language",
     <h3>Percentage: <?= $percentage ?> % </h3>
 
     <div class="container">
-        <a href="/html/subject_progress.html">
+    <a href="../..//html/subject_progress.html">
             <button class="btn_back">BACK</button>
         </a>
 
