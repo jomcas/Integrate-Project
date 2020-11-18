@@ -31,6 +31,7 @@
         <!-- SUBJECTS CONTAINER HERE -->
         <!-- ENGLISH -->
         <div class="row">
+<<<<<<< HEAD
         <a href="../English Page/topics_english.html">
           <div class="column hvr-grow" style="width: 308px">
             <img
@@ -118,10 +119,6 @@
                 where <br> science will be your friend. It aims to <br> provide young
                 children's curiosity to <br> be answered by science and discover <br>
                 more, evidently this website will help <br> young minds to expand
-                their cognition<br>to different forms.
-              </p>
-            </div>
-          </div>
             </a>
         </div>
     </div>
