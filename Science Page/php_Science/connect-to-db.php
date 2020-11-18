@@ -10,7 +10,7 @@ if ($conn->connect_error) {     // Check connection
     die("Connection failed: " . $conn->connect_error);
 } 
 
-$user_id = $_SESSION['id'];;
+$user_id = $_SESSION['User'];;
 $lesson_name = mysqli_real_escape_string($conn, $_POST['lesson_name']);
 $score = mysqli_real_escape_string($conn, $_POST['score']);
 $passing_score = mysqli_real_escape_string($conn, $_POST['passing_score']);
