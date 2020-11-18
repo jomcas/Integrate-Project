@@ -5,7 +5,7 @@ session_start();
 $_SESSION = array();
  
 session_destroy();
-header('Location: http://localhost/main/php/Login.php');
+header('Location: ../php/Login.php');
 exit;
 
 ?>

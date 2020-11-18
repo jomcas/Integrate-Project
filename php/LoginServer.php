@@ -16,6 +16,14 @@ if(isset($_POST['submit'])){
                $uname = $row['Username'];
                $password = $row['Password'];
                $_SESSION['User'] = $uname;
+               $_SESSION['id'] = $row['id'];
+               $_SESSION['Last_Name'] = $row['Last_Name'];
+               $_SESSION['First_Name'] = $row['First_Name'];
+               $_SESSION['Birthday'] = $row['Birthday'];
+               $_SESSION['Age'] = $row['Age'];
+               $_SESSION['Guard_Name'] = $row['Guard_Name'];
+               $_SESSION['Email'] = $row['Email'];
+               $_SESSION['Phone_Num'] = $row['Phone_Num'];
                header('location: ../html/loadingMain.html');
                exit();
 
@@ -24,13 +32,14 @@ if(isset($_POST['submit'])){
         while($row = mysqli_fetch_assoc($Adminresults)){
                $uname = $row['Username'];
                $password = $row['Password'];
+               $_SESSION['id'] = $row['id'];
                $_SESSION['AdminUser'] = $uname;
-               header('location: http://localhost/IntegrativeProj/php/AdminHome.php');
+               header('location: http://localhost/Integrate-Project/php/AdminHome.php');
                exit();
     }
     }else{
 
-        echo "<script>alert('Wrong Username and/or Password :('); window.location.href ='http://localhost/IntegrativeProj/php/Login.php'</script>";
+        echo "<script>alert('Wrong Username and/or Password :('); window.location.href ='http://localhost/Integrate-Project/php/Login.php'</script>";
         exit();
 
     }
@@ -39,7 +48,3 @@ if(isset($_POST['submit'])){
 }    
 
  ?>
-
- 
-
- 

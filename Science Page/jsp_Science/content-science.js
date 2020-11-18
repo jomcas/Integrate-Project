@@ -5,15 +5,14 @@ if (
   sessionStorage.getItem("ID") == 1 &&
   sessionStorage.getItem("lessonID") == 1
 ) {
-  url =
-    "https://drive.google.com/file/d/1d9wEDarBtZuxfX3AcyLwe1sy9qK7rYAu/preview";
+  url = "https://www.youtube.com/embed/eyp-sgodg94?controls=0";
   youtubeVid(url);
+  createNextBtn1(1);
 } else if (
   sessionStorage.getItem("ID") == 1 &&
   sessionStorage.getItem("lessonID") == 2
 ) {
-  url =
-    "https://drive.google.com/file/d/1cqB0GglQDarDbBNN90vZMw7hb8E-WPvF/preview";
+  url = "https://www.youtube.com/embed/k9OqTFZMs2s?controls=0";
   youtubeVid(url);
   createAssessmentBtn();
 }
@@ -23,15 +22,14 @@ else if (
   sessionStorage.getItem("ID") == 2 &&
   sessionStorage.getItem("lessonID") == 1
 ) {
-  url =
-    "https://drive.google.com/file/d/1buo19-TU73lbg_3IBr7HsZ_AaDeh_wH0/preview";
+  url = "https://www.youtube.com/embed/SmlumMnd-eY?controls=0";
   youtubeVid(url);
+  createNextBtn2(1);
 } else if (
   sessionStorage.getItem("ID") == 2 &&
   sessionStorage.getItem("lessonID") == 2
 ) {
-  url =
-    "https://drive.google.com/file/d/1F2wTxBsohWEbUeGEX8F3Gv5AkWHX21jx/preview";
+  url = "https://www.youtube.com/embed/94DTODVYrx8?controls=0";
   youtubeVid(url);
   createAssessmentBtn();
 }
@@ -41,8 +39,7 @@ else if (
   sessionStorage.getItem("ID") == 3 &&
   sessionStorage.getItem("lessonID") == 1
 ) {
-  url =
-    "https://drive.google.com/file/d/1Rde9tKGZ1vesg-2zKmigBzarEUb3So9B/preview";
+  url = "https://www.youtube.com/embed/caAg-2LjIVM?controls=0";
   youtubeVid(url);
   createAssessmentBtn();
 }
@@ -52,29 +49,28 @@ else if (
   sessionStorage.getItem("ID") == 4 &&
   sessionStorage.getItem("lessonID") == 1
 ) {
-  url =
-    "https://drive.google.com/file/d/1ym6jsqXgMBBySB9r_c-mDiM5tIp0SlKq/preview";
+  url = "https://www.youtube.com/embed/jcXIoN8Jq-8?controls=0";
   youtubeVid(url);
+  createNextBtn4(1);
 } else if (
   sessionStorage.getItem("ID") == 4 &&
   sessionStorage.getItem("lessonID") == 2
 ) {
-  url =
-    "https://drive.google.com/file/d/1Q1cx4_IFQcqfOe5R1UBEy25eiVjUl1TX/preview";
+  url = "https://www.youtube.com/embed/0Y4HF66NiPU?controls=0";
   youtubeVid(url);
+  createNextBtn4(2);
 } else if (
   sessionStorage.getItem("ID") == 4 &&
   sessionStorage.getItem("lessonID") == 3
 ) {
-  url =
-    "https://drive.google.com/file/d/1GZSh6yOGri2bPJK4uFSF9AwVi7Nsd5Zn/preview";
+  url = "https://www.youtube.com/embed/GOXQcm8mnXg?controls=0";
   youtubeVid(url);
+  createNextBtn4(3);
 } else if (
   sessionStorage.getItem("ID") == 4 &&
   sessionStorage.getItem("lessonID") == 4
 ) {
-  url =
-    "https://drive.google.com/file/d/1TQjcM1ajxCdm1jXoUEJkYHKMbKhu7Kzx/preview";
+  url = "https://www.youtube.com/embed/e8eBkUIC4-4?controls=0";
   youtubeVid(url);
   createAssessmentBtn();
 }
@@ -84,75 +80,31 @@ else if (
   sessionStorage.getItem("ID") == 5 &&
   sessionStorage.getItem("lessonID") == 1
 ) {
-  url =
-    "https://drive.google.com/file/d/1trZmr9BN0P3yv7emI29bNmYjyIqSrG95/preview";
+  url = "https://www.youtube.com/embed/vz62QZlVpqw?controls=0";
   youtubeVid(url);
+  createNextBtn5(1);
 } else if (
   sessionStorage.getItem("ID") == 5 &&
   sessionStorage.getItem("lessonID") == 2
 ) {
   // weather
-  url = "";
-  powerpoint(url);
+  url = "https://www.youtube.com/embed/sn6GLgaTY0M?controls=0";
+  youtubeVid(url);
+  createNextBtn5(2);
 } else if (
   sessionStorage.getItem("ID") == 5 &&
   sessionStorage.getItem("lessonID") == 3
 ) {
-  url =
-    "https://drive.google.com/file/d/1nJNgt4wCWKCrusZDWn7ZOsa8oXmzpTlN/preview";
+  url = "https://www.youtube.com/embed/AUinjnfsDH8?controls=0";
   youtubeVid(url);
+  createNextBtn5(3);
 } else if (
   sessionStorage.getItem("ID") == 5 &&
   sessionStorage.getItem("lessonID") == 4
 ) {
-  url =
-    "https://drive.google.com/file/d/1RVNM59Ua_LcFfgPMdELL2Xnndv-jYhax/preview";
+  url = "https://www.youtube.com/embed/CJkw3T1IzYk?controls=0";
   youtubeVid(url);
   createAssessmentBtn();
-}
-
-//6
-else if (
-  sessionStorage.getItem("ID") == 6 &&
-  sessionStorage.getItem("lessonID") == 1
-) {
-} else if (
-  sessionStorage.getItem("ID") == 6 &&
-  sessionStorage.getItem("lessonID") == 2
-) {
-}
-
-//7
-else if (
-  sessionStorage.getItem("ID") == 7 &&
-  sessionStorage.getItem("lessonID") == 1
-) {
-} else if (
-  sessionStorage.getItem("ID") == 7 &&
-  sessionStorage.getItem("lessonID") == 2
-) {
-}
-
-//8
-else if (
-  sessionStorage.getItem("ID") == 8 &&
-  sessionStorage.getItem("lessonID") == 1
-) {
-} else if (
-  sessionStorage.getItem("ID") == 8 &&
-  sessionStorage.getItem("lessonID") == 2
-) {
-}
-
-//9
-else if (
-  sessionStorage.getItem("ID") == 9 &&
-  sessionStorage.getItem("lessonID") == 1
-) {
-} else if (
-  sessionStorage.getItem("ID") == 9 &&
-  sessionStorage.getItem("lessonID") == 2
-) {
 } else {
 }
 
@@ -162,16 +114,8 @@ function youtubeVid(url) {
   container.setAttribute("style", "width:100%;height:80%");
 
   let framePane = document.createElement("iframe");
-  framePane.setAttribute("style", "width:100%;height:80%");
+  framePane.setAttribute("style", "width:100%;height:100%");
   framePane.setAttribute("src", url);
-  // framePane.setAttribute("frameborder","0");
-  // framePane.setAttribute("allow","accelerometer");
-  // framePane.setAttribute("allow","autoplay");
-  // framePane.setAttribute("allow","clipboard-write");
-  // framePane.setAttribute("allow","encrypted-media");
-  // framePane.setAttribute("allow","gyroscope");
-  // framePane.setAttribute("allow","picture-in-picture");
-  // framePane.setAttribute("allowfullscreen");
 
   //video frame edit here
   var el = document.getElementById("marker");
@@ -194,16 +138,131 @@ function hi() {
   window.location.href = "../Science Page/assessment_sci.html";
 }
 
+function nextButtonLoc() {
+  window.location.href = "../Science Page/assessment_sci.html";
+}
+
 function createAssessmentBtn() {
-  var myDiv = document.getElementById("marker");
   // creating button element
-  var button = document.createElement("BUTTON");
+  var myDiv = document.getElementById("marker");
   // creating text to be
+  var button = document.createElement("BUTTON");
   //displayed on button
   var text = document.createTextNode("Assessment");
+
+  // button style
+  var style = document.createElement("style");
+  style.type = "text/css";
+  style.innerHTML =
+    ".createAssessmentBtn{ position: absolute; top:91.5%;" +
+    "left: 45%; font-size: 20px; height: auto;" +
+    "background-color: #613870; color: black;" +
+    "border-color: white;height: 50px; text-align: center" +
+    "width: 200px; border-radius: 50px; border-width: thin" +
+    "margin: auto; padding: 5px 15px 15px 15px; color:white;}";
+  document.head.appendChild(style);
+  button.className = "createAssessmentBtn";
+
   // appending text to button
   button.appendChild(text);
   button.onclick = hi;
   // appending button to div
   myDiv.appendChild(button);
+}
+
+//CREATE NEXT BUTTON
+function createNextBtn1(i) {
+  var myDiv = document.getElementById("marker");
+  var button = document.createElement("BUTTON");
+  var text = document.createTextNode("Next");
+
+  button.appendChild(text);
+  if (i == 1) {
+    button.onclick = nextUrl1_1;
+  }
+  myDiv.appendChild(button);
+}
+
+function createNextBtn2(i) {
+  var myDiv = document.getElementById("marker");
+  var button = document.createElement("BUTTON");
+  var text = document.createTextNode("Next");
+  button.appendChild(text);
+  if (i == 1) {
+    button.onclick = nextUrl2_1;
+  }
+  myDiv.appendChild(button);
+}
+
+//3
+
+function createNextBtn4(i) {
+  var myDiv = document.getElementById("marker");
+  var button = document.createElement("BUTTON");
+  var text = document.createTextNode("Next");
+  button.appendChild(text);
+  if (i == 1) {
+    button.onclick = nextUrl4_1;
+  } else if (i == 2) {
+    button.onclick = nextUrl4_2;
+  } else if (i == 3) {
+    button.onclick = nextUrl4_3;
+  }
+  myDiv.appendChild(button);
+}
+
+function createNextBtn5(i) {
+  var myDiv = document.getElementById("marker");
+  t;
+  var button = document.createElement("BUTTON");
+  var text = document.createTextNode("Next");
+
+  button.appendChild(text);
+  if (i == 1) {
+    button.onclick = nextUrl5_1;
+  } else if (i == 2) {
+    button.onclick = nextUrl5_2;
+  } else if (i == 3) {
+    button.onclick = nextUrl5_3;
+  }
+  myDiv.appendChild(button);
+}
+
+//LINKS
+function nextUrl1_1() {
+  sessionStorage.setItem("lessonID", 2);
+  window.location.href = "../Science Page/vid-sci.html";
+}
+
+function nextUrl2_1() {
+  sessionStorage.setItem("lessonID", 2);
+  window.location.href = "../Science Page/vid-sci.html";
+}
+
+//3
+
+function nextUrl4_1() {
+  sessionStorage.setItem("lessonID", 2);
+  window.location.href = "../Science Page/vid-sci.html";
+}
+function nextUrl4_2() {
+  sessionStorage.setItem("lessonID", 3);
+  window.location.href = "../Science Page/vid-sci.html";
+}
+function nextUrl4_3() {
+  sessionStorage.setItem("lessonID", 4);
+  window.location.href = "../Science Page/vid-sci.html";
+}
+
+function nextUrl5_1() {
+  sessionStorage.setItem("lessonID", 2);
+  window.location.href = "../Science Page/vid-sci.html";
+}
+function nextUrl5_2() {
+  sessionStorage.setItem("lessonID", 3);
+  window.location.href = "../Science Page/vid-sci.html";
+}
+function nextUrl5_3() {
+  sessionStorage.setItem("lessonID", 4);
+  window.location.href = "../Science Page/vid-sci.html";
 }

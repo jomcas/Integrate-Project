@@ -1,73 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Topics</title>
-    <link rel="stylesheet" href="../css/topics_filipino.css">
-    <link rel="shortcut icon" href="../images/logo.png" type="image/png">
-</head>
-<div>
-    <div class= "container">
-        <a href="../html/subject_topic.html">
-        <button class= "btn_back">BACK</button>
-    </a>
-        <div class = "topics">
-            <div id="pics1">
-                <img src="../images/Leksyon.svg" alt="" class= "leksyon">
-                </div>
-                <br>
-        <div id="pics1">
-            <a href="../Filipino Page/lesson-fil.html">
-            <img src="../images/Mga tunog.svg" alt="" class = "pics">
-        </a>
+    <link rel="stylesheet" href="../css/topics_filipino.css" />
+    <link rel="shortcut icon" href="../images/logo.png" type="image/png" />
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <a href="../html/subject_topic.html">
+        <button class="btn_back">BACK</button>
+      </a>
+
+      <div class="topics">
+        <div id="pics1" value="1">
+          <img src="../images/Leksyon.svg" alt="" class="leksyon">
+        </div>
+
+        <br> 
+        <br>
+        <br>
+        
+        <div id="pics1" value="1" onclick="showID(1)">
+          <img src="../images/Mga tunog.svg" alt="" class="pics">
         </div>
         <br>
         <br>
         <br>
-        <div id="pics1">
-            <a href="../Filipino Page/lesson-fil.html">
-            <img src="../images/Pantig.svg" alt="" class = "pics">
-        </a>
+        <div id="pics1" value="2" onclick="showID(2)">
+          <img src="../images/Pagbuo.svg" alt="" class="pics">
+        </div>
+
+        <div id="pics1" value="3" onclick="showID(3)">
+          <img src="../images/Buwan saka Araw.svg" alt="" class="pics">
         </div>
         <br>
         <br>
-        <div id="pics1">
-            <a href="../Filipino Page/lesson-fil.html">
-            <img src="../images/Pagbuo.svg" alt="" class = "pics">
-            </a>
+        <div id="pics1" value="4" onclick="showID(4)">
+          <img src="../images/Mga kulay.svg" alt="" class="pics">
+        </div>
+        <br>
+        <br>
+        <div id="pics1" value="5" onclick="showID(5)">
+          <img src="../images/Prutas.svg" alt="" class="pics">
         </div>
         
-        <div id="pics1" class="buwan">
-            <a href="../Filipino Page/lesson-fil.html">
-            <img src="../images/Buwan saka Araw.svg" alt="" class = "pics">
-            </a>
-        </div>
-        <br>
-        <br>
-        <div id="pics1">
-            <a href="../Filipino Page/lesson-fil.html">
-        <img src="../images/Mga kulay.svg" alt="" class = "pics">
-            </a>
-        </div>
-        <br><br>
-        <div id="pics1">
-            <a href="../Filipino Page/lesson-fil.html">
-        <img src="../images/Prutas.svg" alt="" class = "pics">
-            </a>
-        </div>
-        <br>
-        <div id="pics1">
-            <a href="../Filipino Page/lesson-fil.html">
-        <img src="../images/Magalang.svg" alt="" class = "pics">
-            </a>
-        </div>
-        <div id="pics1">
-            <a href="../Filipino Page/lesson-fil.html">
-       <img src="../images/Pambansang.svg" alt="" class = "pics">
-            </a>
-        </div>
+      </div>
     </div>
-    </div>
-</body>
+  </body>
+
+  <script type="text/javascript" src="../Filipino Page/jsp_Filipino/topics-filipino.js"></script>
 </html>

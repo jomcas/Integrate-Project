@@ -10,10 +10,14 @@
         function PasswordValue(form) {
 
             if (form.Password.value != form.Confirm_Pass.value) {
-                alert("Please Try Again!. Password does not Match :(");
+                JSalert();
                 form.Password.focus();
                 return false;
             }
+        }
+
+        function JSalert() {
+            swal("Sorry!", "Password and Confirm Password Does Not Match!", "error");
         }
 
 
@@ -178,13 +182,14 @@
                         <br>
             </form>
             <div class="SigninAcc">
-                Already have an account? <a href="http://localhost/main/php/Login.php" class="Signtext">Sign
+                Already have an account? <a href="http://localhost/Integrate-Project/php/Login.php" class="Signtext">Sign
                     in</a>
             </div>
         </div>
     </div>
     </div>
     </div>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 
 </html>

@@ -1,10 +1,13 @@
 <?php
-include "../../connection/connection.php";
+include "../../php/config.php";
 
 $con = connection();
 
+session_start();
 
-$sql = "SELECT * from progress WHERE progress_id = 5";
+$id = $_SESSION['id'];
+
+$sql = "SELECT * from progress WHERE user_id = '$id' AND subject = 'SCIENCE'";
 $progress = $con->query($sql) or die ($con->error);
 $row = $progress->fetch_assoc();
 $total = $row["total"];
@@ -12,18 +15,6 @@ $done = $row["done"];
 
 $percentage = ($done / $total) * 100;
 
-// Array of lessons
-
-$topics = ["Oral Language",
-            "Phonological Skills",
-            "Phonics and Word Recognition", 
-            "Grammar",
-            "Vocabulary and Concept Development",
-            "Listening Comprehension", 
-            "Reading Comprehension",
-            "Language and literature",
-            "Book and Print Knowledge"
-          ];
 ?>
 
 
@@ -36,7 +27,8 @@ $topics = ["Oral Language",
     <title>Progress English</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="../../css/progress_science.css">
-</head>
+</head>+
+
 
 <body>
 
@@ -44,35 +36,35 @@ $topics = ["Oral Language",
     <h3>Percentage: <?= $percentage ?> % </h3>
 
     <div class="container">
-        <a href="../..//html/subject_progress.html">
+    <a href="../../html/subject_progress.html">
             <button class="btn_back">BACK</button>
         </a>
 
-    <?php for($i = 1; $i <= $total; $i++) { ?>
+        <?php for($i = 1; $i <= $total; $i++) { ?>
 
-    <!-- done -->
-    <?php if($i <= ($done)) { ?>
+        <!-- done -->
+        <?php if($i <= ($done)) { ?>
         <div class="circle<?=$i?>" onclick="showID(<?=$i?>)">
             <img src="../../images/science_passed.svg" alt="" class="circle" id="circle">
         </div>
 
-    <!-- current -->
-    <?php } else if($i == ($done + 1)) { ?>
+        <!-- current -->
+        <?php } else if($i == ($done + 1)) { ?>
 
         <div class="circle<?=$i?>" onclick="showID(<?=$i?>)">
             <!-- make assets for math circ  -->
             <img src="../../images/science_circ<?=$i?>.svg" alt="" class="circle" id="circle">
         </div>
 
-    <!-- locked -->
-    <?php }  else { ?>
-        <div class="circle<?=$i?>" onclick="" >
+        <!-- locked -->
+        <?php }  else { ?>
+        <div class="circle<?=$i?>" onclick="">
             <img src="../../images/science_lock.svg" alt="" class="circle" id="circle">
         </div>
-    <?php } ?>
+        <?php } ?>
 
 
-    <?php } ?>
+        <?php } ?>
 
     </div>
 
@@ -81,7 +73,7 @@ $topics = ["Oral Language",
 </body>
 
 </html>
-    <script src="../jsp_Science/progress.js"></script>
+<script src="../jsp_Science/progress.js"></script>
 </body>
 
 </html>

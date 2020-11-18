@@ -1,10 +1,13 @@
 <?php
-include "../../connection/connection.php";
+include "../../php/config.php";
 
 $con = connection();
 
+session_start();
 
-$sql = "SELECT * from progress WHERE progress_id = 4";
+$id = $_SESSION['id'];
+
+$sql = "SELECT * from progress WHERE user_id = '$id' AND subject = 'MATH'";
 $progress = $con->query($sql) or die ($con->error);
 $row = $progress->fetch_assoc();
 $total = $row["total"];
@@ -12,18 +15,6 @@ $done = $row["done"];
 
 $percentage = ($done / $total) * 100;
 
-// Array of lessons
-
-$topics = ["Oral Language",
-            "Phonological Skills",
-            "Phonics and Word Recognition", 
-            "Grammar",
-            "Vocabulary and Concept Development",
-            "Listening Comprehension", 
-            "Reading Comprehension",
-            "Language and literature",
-            "Book and Print Knowledge"
-          ];
 ?>
 
 
@@ -44,7 +35,7 @@ $topics = ["Oral Language",
     <h3>Percentage: <?= $percentage ?> % </h3>
 
     <div class="container">
-        <a href="../..//html/subject_progress.html">
+    <a href="../../html/subject_progress.html">
             <button class="btn_back">BACK</button>
         </a>
 
@@ -61,7 +52,7 @@ $topics = ["Oral Language",
 
         <div class="circle<?=$i?>" onclick="showID(<?=$i?>)">
             <!-- make assets for math circ  -->
-            <img src="../../images/english_circ<?=$i?>.svg" alt="" class="circle" id="circle">
+            <img src="../../images/circ<?=$i?>.svg" alt="" class="circle" id="circle">
         </div>
 
     <!-- locked -->
