@@ -25,7 +25,7 @@
         $servername = "localhost";
         $username = "root";
         $password = "";
-        // $dbname = "db_integ"; database name ko to
+        // $dbname = "db_integ"; database name ko 
         $dbname = "integratives";
 
         $conn = new mysqli($servername, $username, $password, $dbname); // Create connection
