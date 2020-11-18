@@ -1,13 +1,14 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.2
+-- version 4.9.0.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 15, 2020 at 08:58 AM
--- Server version: 10.4.14-MariaDB
--- PHP Version: 7.4.10
+-- Generation Time: Nov 15, 2020 at 02:56 PM
+-- Server version: 10.4.6-MariaDB
+-- PHP Version: 7.3.8
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -123,7 +124,7 @@ INSERT INTO `reg_stud` (`id`, `Last_Name`, `First_Name`, `Birthday`, `Age`, `Gua
 --
 
 CREATE TABLE `science_table` (
-  `user_fk` int(100) NOT NULL,
+  `user_fk` varchar(100) NOT NULL,
   `id` int(50) NOT NULL,
   `Lesson_Name` varchar(50) NOT NULL,
   `Score` varchar(50) NOT NULL,
@@ -137,10 +138,13 @@ CREATE TABLE `science_table` (
 --
 
 INSERT INTO `science_table` (`user_fk`, `id`, `Lesson_Name`, `Score`, `Passing_Score`, `No_Items`, `Status`) VALUES
-(0, 1, 'Living Things', '8', '8', '10', 'passed'),
-(0, 2, 'Plants', '7', '8', '10', 'failed'),
-(0, 3, 'Animals', '6', '8', '10', 'failed'),
-(0, 4, 'Non Living Things', '5', '9', '11', 'failed');
+('0', 1, 'Living Things', '8', '8', '10', 'passed'),
+('0', 2, 'Plants', '7', '8', '10', 'failed'),
+('0', 3, 'Animals', '6', '8', '10', 'failed'),
+('0', 4, 'Non Living Things', '5', '9', '11', 'failed'),
+('0', 5, 'Non Living Things', '3', '9', '11', 'failed'),
+('0', 6, 'Animals', '9', '8', '10', 'passed'),
+('Alfs12', 7, 'Human Body Parts', '2', '7', '9', 'failed');
 
 --
 -- Indexes for dumped tables
@@ -220,7 +224,7 @@ ALTER TABLE `reg_stud`
 -- AUTO_INCREMENT for table `science_table`
 --
 ALTER TABLE `science_table`
-  MODIFY `id` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

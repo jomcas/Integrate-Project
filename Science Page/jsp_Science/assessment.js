@@ -15,6 +15,9 @@ let attempt = 0;
 let count = 1;
 var quiz;
 var next_page = false;
+ //get 80% of the total number of questions
+var passingScore;
+var status;
 
 // TODO push the question into the available question array
 function setAvailableQuestions() {
@@ -149,7 +152,7 @@ function quizOver() {
     // show result box
     resultBox.classList.remove("hide");
     quizResult();
-    alert("Assessment Recorded");
+
 }
 
 function quizResult() {
@@ -162,14 +165,26 @@ function quizResult() {
         percentage.toFixed(2) + "%";
     document.getElementById("scoreToDB").setAttribute("value", correctAnswers);
     resultBox.querySelector(".total-score").innerHTML = correctAnswers;
-    saveToDb();
+
+    passingScore = Math.round(quiz.length * 80 * 0.01);
+    status = getScoreStatus();
+    
+    if(status == "passed"){
+        saveToDb();
+        alert("Score recorded to Database");
+    }else{
+        saveToDb();
+       if(!alert("BOBO amp! Recorded parin")){
+        window.location.reload();
+       }
+    }
 }
+
+
+
 
 //Ajax save score and other data to database.
 function saveToDb() {
-    //get 80% of the total number of questions
-    var passingScore = Math.round(quiz.length * 80 * 0.01);
-    var status = getScoreStatus(passingScore);
 
     $.post("php_Science/connect-to-db.php", {
         lesson_name: lesson_name,
@@ -181,7 +196,7 @@ function saveToDb() {
 }
 
 //get score status if pass or fail
-function getScoreStatus(passingScore) {
+function getScoreStatus() {
     if (correctAnswers >= passingScore) {
         return "passed";
     }
