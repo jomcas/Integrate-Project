@@ -5,7 +5,7 @@ function connection() {
     $host = "localhost";
     $username = "root";
     $password = "";
-    $database = "progress";
+    $database = "integratives";
 
     $con = new mysqli($host, $username, $password, $database);
 
