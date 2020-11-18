@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/subject.css">
-    <link href="../css/hover.css" rel="stylesheet" media="all">
+    <link href=" ../css/hover.css" rel="stylesheet" media="all">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -31,7 +31,6 @@
         <!-- SUBJECTS CONTAINER HERE -->
         <!-- ENGLISH -->
         <div class="row">
-<<<<<<< HEAD
         <a href="../English Page/topics_english.html">
           <div class="column hvr-grow" style="width: 308px">
             <img
@@ -115,13 +114,16 @@
             <br>
               <h5 class="card-title">MATHEMATICS</h5>
               <p class="card-text">
-                Welcome to science this is the new <br> beginning of another chapter
+              Welcome to science this is the new <br> beginning of another chapter
                 where <br> science will be your friend. It aims to <br> provide young
                 children's curiosity to <br> be answered by science and discover <br>
                 more, evidently this website will help <br> young minds to expand
-            </a>
-        </div>
+                their cognition<br>to different forms.
+                </p>
+            </div>
+          </div>
+        </a>
+      </div>
     </div>
-</body>
-</html>
+  </body>
 </html>
