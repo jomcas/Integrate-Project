@@ -215,21 +215,18 @@ function youtubeVid(url) {
 function powerpoint(url) {
 
     var els = document.getElementById('container');
-    els.innerHTML = '<iframe src="'+url+'/_layouts/15/Doc.aspx?sourcedoc={19e7812a-571a-4c12-b7bb-f95a8afd1582}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="1186px" height="691px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>';
+    els.innerHTML = '<iframe src="'+url+'/_layouts/15/Doc.aspx?sourcedoc={19e7812a-571a-4c12-b7bb-f95a8afd1582}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="1000px" height="691px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>';
 
-    // let container = document.createElement('div');
+    let container = document.createElement('div');
     container.className = "container";
     container.setAttribute("style", "width:100%;height:80%");
 
 
+
     let framePane = document.createElement('iframe');
-    framePane.setAttribute("style", "width:10%;height:100%");
+    framePane.setAttribute("style", "width:100%;height:100%");
     framePane.setAttribute("src", url);
-
-
-    var el = document.getElementById('marker');
-    el.setAttribute("style", "width:100%;height:100%");
-    container.appendChild(framePane);
+     container.appendChild(framePane);
 
     el.appendChild(container);
 
