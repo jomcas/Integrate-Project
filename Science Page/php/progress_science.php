@@ -27,7 +27,8 @@ $percentage = ($done / $total) * 100;
     <title>Progress English</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="../../css/progress_science.css">
-</head>
+</head>+
+
 
 <body>
 

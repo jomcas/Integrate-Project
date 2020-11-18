@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assessment Filipino</title>
+    <link rel="shortcut icon" href="../images/logo.png" type="image/png">
 
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -11,13 +12,15 @@
     <link rel="stylesheet" href="../css/hover.css">
     <link href="../css/hover.css" rel="stylesheet" media="all">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="shortcut icon" href="../images/logo.png" type="image/png">
+    <link rel="stylesheet" href="../css/asses_hover.css">
+    <link rel="stylesheet" href="../css/asses_middlestyle.css">
 </head>
-<body class="body-fil" >
+
+<body onload="start()" class="body-fil">
     <nav class="navbar-fil fixed-top">
         <a class="navbar-brand" href="#" style="text-align: center;">Assessment</a>
         <div class="right">
-            <a class="btn-fil" href="#">QUIT</a>
+            <a class="btn-fil" href="vid-fil.html">QUIT</a>
         </div>
     </nav>
 
@@ -26,97 +29,82 @@
     
         <div class="container-fil" style="float: left;">
             <div class="row">
-                
                 <div class="column-desc">
-                   
-                        <h1>Panuto</h1>
-                    
-                    
+
+                    <h1>Panuto</h1>
+
+
                     <h3>Sagutan lahat ng tama, para makapasa ay kailangan mo ng 5 puntos o higit pa sa 10 tanong.</h3>
                     <br>
 
                     <div class="limit">
-                    <p>Tandaan: kung ikaw ay hindi makapasa, kailangan mong ulitin ang aralin para makapagpatuloy sa susunod na aralin.</p>
+                        <p>Tandaan: kung ikaw ay hindi makapasa, kailangan mong ulitin ang aralin para makapagpatuloy sa susunod na aralin.</p>
                     </div>
                     <br>
                     <h3>Masayang pagaaral !</h3>
+
                 </div>
             </div>
         </div>
-    
-   
-
     
         <div class="container-fil-question" style="float: left;">
             <div class="row">
-                
-                
-                    <h1>Ano ang panaguri ? </h1>
-                    <hr>
-                    <div class="box-answer">
-                        <br><br><br><br><br><br><br><br><br><br><br>
+                <div class="quiz-box custom-box">
+                    <div class="question-number" id="question-num"></div>
+                    <div class="question-text"></div>
+                    <div class="option-container"></div>
+                    <div class="next-question-button">
+                        <button type="button" class="btn" onclick="next()">Next</button>
                     </div>
-                    
-                    <div class="btn-selection">
-                        <br>
-                        <button class="button-fil" style="float: left;">Magpasa</button>
-                        <a href="../html/trivia.html">
-                        <button class="button-fil" style="float: left;">Susunod</button>
-                    </a>
+                    <div class="answers-indicator">
                     </div>
-                
-            </div>
-        </div>
-
-
-        <div class="container-fil-noquestion" style="float: left;">
-            <div class="row">
-                
-                <div class="column-desc">
-                    
-                        <h1>Katanungan</h1>
-                    
-                    <hr>
-                    <div class="quest">
-                        <h3>Question 1  - ✓</h3>
-                    </div>
-                    <div class="quest">
-                        <h3>Question 2  - ✓</h3>
-                    </div>
-                    <div class="quest">
-                        <h3>Question 3  - ✓</h3>
-                    </div>
-                    <div class="quest">
-                        <h3>Question 4  - ✓</h3>
-                    </div>
-                    <div class="quest">
-                        <h3>Question 5  - ✓</h3>
-                    </div>
-                    <div class="quest">
-                        <h3>Question 6  - *</h3>
-                    </div>
-                    <div class="quest">
-                        <h3>Question 7  -</h3>
-                    </div>
-                    <div class="quest">
-                        <h3>Question 8  -</h3>
-                    </div>
-                    <div class="quest">
-                        <h3>Question 9  - </h3>
-                    </div>
-                    <div class="quest">
-                        <h3>Question 10 - </h3>
-                    </div>
-
-                    
-
                 </div>
+                <div class="result-box custom-box hide">
+                    <h1>Quiz Result</h1>
+                    <table>
+                        <tr>
+                            <td>Total Question</td>
+                            <td><span class="total-question"></span></td>
+                        </tr>
+                        <tr>
+                            <td>Attempt</td>
+                            <td><span class="attempt"></span></td>
+                        </tr>
+                        <tr>
+                            <td>Correct</td>
+                            <td><span class="total-correct" name="tcorrect"></span></td>
+                        </tr>
+                        <tr>
+                            <td>Wrong</td>
+                            <td><span class="total-wrong"></span></td>
+                        </tr>
+                        <tr>
+                            <td>Percentage</td>
+                            <td><span class="percentage"></span></td>
+                        </tr>
+                        <tr>
+                            <td>Total Score</td>
+                            <td><span class="total-score"></span></td>
+                            <input type="text" name="scoreToDB" id="scoreToDB">
+                        </tr>
+                    </table>
+                    <button type="button" class="btn" name="again" >Try Again</button>
+                    <button type="button" class="btn" onclick="goHome()">Home</button>
+                </div>
+                
             </div>
         </div>
-  
 
+        
+       
     </div>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="jsp_Filipino/assessfuncfil.js"></script>
+    <script type="text/javascript" src="jsp_Filipino/assesquestionfil.js"></script>
 
-
+    
+    
 </body>
+<script src="jsp_Filipino/progress.js"></script>
+
 </html>
