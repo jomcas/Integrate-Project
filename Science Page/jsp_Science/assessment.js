@@ -170,10 +170,10 @@ function quizResult() {
 
   if (status == "passed") {
     saveToDb();
-    alert("PASSED! Score recorded!");
+    alert("PASSED! Score successfully recorded!");
   } else {
     saveToDb();
-    if (!alert("BOBO amp! Recorded pa rin")) {
+    if (!alert("FAILED! Recorded pa rin")) {
       window.location.reload();
     }
   }
