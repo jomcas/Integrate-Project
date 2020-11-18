@@ -69,7 +69,7 @@
                 </div>
             </a>
             <!-- MATHEMATICS -->
-            <a href="../Math Page/result_math.html">
+            <a href="../Math Page/php/result_math.php">
                 <div class="column hvr-grow" style="width: 300px;">
                     <img src="../images/MathematicAsset.png" class="card-img-top" alt="...">
                     <div class="card-body text-center shadow p-3 mb-5" style=" background-color: #64A23A;">
