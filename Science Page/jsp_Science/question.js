@@ -83,17 +83,17 @@ const unit2 = [
     answer: 0,
   },
   {
-    q: "Non-Living things cannot grow?",
+    q: "Non-Living things cannot grow.",
     options: ["True", "False"],
     answer: 0,
   },
   {
-    q: "Non-Living things can move?",
+    q: "Non-Living things can move.",
     options: ["True", "False"],
     answer: 1,
   },
   {
-    q: "Non-Living things cannot multiply on their own?",
+    q: "Non-Living things cannot multiply on their own.",
     options: ["True", "False"],
     answer: 0,
   },
@@ -211,7 +211,7 @@ const unit4 = [
   {
     q: "PIG",
     options: ["calf", "piglet", "kid"],
-    answer: 0,
+    answer: 1,
   },
 ];
 
