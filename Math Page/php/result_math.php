@@ -16,7 +16,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="shortcut icon" href="../images/logo.png" type="image/png">
 
-    <link rel="stylesheet" href="../css/result_math.css">
+    <link rel="stylesheet" href="../../css/result_math.css">
 
 
 </head>
@@ -40,7 +40,7 @@
     ?>
 
 
-    <a href="../html/subject_result.php" class="button">BACK</a>
+    <a href="../../html/subject_result.php" class="button">BACK</a>
 
     <div class="table-wrapper">
 

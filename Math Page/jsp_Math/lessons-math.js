@@ -7,15 +7,18 @@
 if (sessionStorage.getItem("ID") === "1") {
     var titles = ["Count 1-100", "Skip Counting", "Comparisons", "Place Values", "Ordinal Numbers"];
     var imageLoc = [
-        "../Science Page/img/thumbnails/parts.png",
-        "../Science Page/img/thumbnails/sense-organs.png",
+        "../Math Page/img-math/counting numbers/Counting Num.png",
+        "../Math Page/img-math/counting numbers/Skip Counting.png",
+        "../Math Page/img-math/counting numbers/Comparisons.png",
+        "../Math Page/img-math/counting numbers/Place Values.png",
+        "../Math Page/img-math/counting numbers/Ordinal Num.png",
     ];
     var subcontent = [
         "Counting numbers are used to count objects. It is the act of determining the quantity or the total number of objects in a set or a group.",
         "Skip counting is a method of counting forward by numbers other than 1. You can do the counting while skipping a number or numbers in between. It is helpful to count quick.",
         "Comparisons is to examine the differences between numbers, quantities, or values to decide if it is greater than, smaller than or equal to another quantity.",
-        "- Place value is how much each digit is worth, based on what place it has in a number. Each place or spot in a number has its own place value."
-    ];
+        "Place value is how much each digit is worth, based on what place it has in a number. Each place or spot in a number has its own place value.",
+        "An Ordinal Number is a number that tells the position of something in a list, such as 1st, 2nd, 3rd, 4th, 5th etc. Most ordinal numbers end in \"th\" except for, first (1st) and second(2nd)."    ];
     for (var temp = 1; temp <= titles.length; temp++) {
         Populate(temp, titles[temp - 1], imageLoc[temp - 1], subcontent[temp - 1]);
     }
@@ -24,7 +27,7 @@ if (sessionStorage.getItem("ID") === "1") {
 } else if (sessionStorage.getItem("ID") === "2") {
     var titles = ["Introduction to Addition", "Visual Represetation", "Addends, Sum, and Basic Computation", "Vertical Addition", "Addition with regrouping", "Addition without regrouping", "Word Problems"];
     var imageLoc = [
-        "../Science Page/img/thumbnails/parts.png",
+        "../Math Page/img-math/addition/Counting Num.png",
         "../Science Page/img/thumbnails/sense-organs.png",
     ];
     var subcontent = [
@@ -60,8 +63,9 @@ if (sessionStorage.getItem("ID") === "1") {
 } else if (sessionStorage.getItem("ID") === "4") {
     var titles = ["Introduction to Fraction", "Parts of Fraction", "Writing of fractions"];
     var imageLoc = [
-        "../Science Page/img/thumbnails/parts.png",
-        "../Science Page/img/thumbnails/sense-organs.png",
+        "../Math Page/img-math/fraction/Intro to Fraction.png",
+        "..",
+        "../Math Page/img-math/fraction/Writing Frac.png",
     ];
     var subcontent = [
         "Fractions are numbers that represent a part of the whole. When an object or a group of objects is divided into equal parts, then each individual part is a fraction.",
@@ -78,8 +82,9 @@ if (sessionStorage.getItem("ID") === "1") {
 } else if (sessionStorage.getItem("ID") === "5") {
     var titles = ["Introduction to Money", "Bills and Coins", "Computing Money"];
     var imageLoc = [
-        "../Science Page/img/thumbnails/parts.png",
-        "../Science Page/img/thumbnails/sense-organs.png",
+        "../Math Page/img-math/money/Intro to Money.png",
+        "../Math Page/img-math/money/Bills and Coins.png",
+        "../Math Page/img-math/money/Counting Money.png",
     ];
     var subcontent = [
         "The very first step of a child in learning about the concept of money. You will learn the definition and what is the importance of money.",
@@ -94,8 +99,12 @@ if (sessionStorage.getItem("ID") === "1") {
 } else if (sessionStorage.getItem("ID") === "6") {
     var titles = ["Introduction to Shapes", "Basic Shapes", "Regular Polygons", "Irregular Polygons", "Identifying Shapes"];
     var imageLoc = [
-        "../Science Page/img/thumbnails/parts.png",
-        "../Science Page/img/thumbnails/sense-organs.png",
+        "../Math Page/img-math/shapes/sub1.png",
+        "../Math Page/img-math/shapes/sub2.png",
+        "../Math Page/img-math/shapes/sub3.png",
+        "../Math Page/img-math/shapes/sub4.png",
+        "../Math Page/img-math/shapes/sub5.png",
+
     ];
     var subcontent = [
         "The object of art is to give life a shape! That’s why shapes are everywhere! In this topic, you will be introduced to the concept of Shapes and why is it important to learn it.",
@@ -113,8 +122,9 @@ if (sessionStorage.getItem("ID") === "1") {
 } else if (sessionStorage.getItem("ID") === "7") {
     var titles = ["Telling Time", "Reading Time in Minutes", "Quarter Hour and Half Hour"];
     var imageLoc = [
-        "../Science Page/img/thumbnails/parts.png",
-        "../Science Page/img/thumbnails/sense-organs.png",
+        "../Math Page/img-math/time/Telling time.png",
+        "../Math Page/img-math/time/time in minutes.png",
+        "../Math Page/img-math/time/Quarter and Halft Hour.png",
     ];
     var subcontent = [
         "Telling time will tell you how to read a clock. It aims to keep track of the hours.",
@@ -129,8 +139,9 @@ if (sessionStorage.getItem("ID") === "1") {
 } else if (sessionStorage.getItem("ID") === "8") {
     var titles = ["Capacity", "Height and length", "Measuring and comparing length"];
     var imageLoc = [
-        "../Science Page/img/thumbnails/parts.png",
-        "../Science Page/img/thumbnails/sense-organs.png",
+        "../Math Page/img-math/measurement/Capacity.png",
+        "../Math Page/img-math/measurement/h and l.png",
+        "../Math Page/img-math/measurement/Measurement.png",
     ];
     var subcontent = [
         "Heavy is a great weight or difficult to lift or move. Light is the opposite of heavy, it has small weight and easy to lift or move.",
