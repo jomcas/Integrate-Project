@@ -31,7 +31,7 @@
         <!-- SUBJECTS CONTAINER HERE -->
         <!-- ENGLISH -->
         <div class="row">
-        <a href="../English Page/topics_english.html">
+        <a href="../English Page/result_english.php">
           <div class="column hvr-grow" style="width: 308px">
             <img
               src="../images/EnglishAsset.png"
@@ -54,7 +54,7 @@
           </div>
         </a>
         <!-- FILIPINO -->
-        <a href="../Filipino Page/topics_filipino.html">
+        <a href="../Filipino Page/result_filipino.html">
           <div class="column hvr-grow" style="width: 308px">
             <img
               src="../images/FilipinoAsset.png"
@@ -78,7 +78,7 @@
           </div>
         </a>
         <!-- SCIENCE -->
-        <a href="../Science Page/topics_science.html">
+        <a href="../Science Page/result_science.php">
           <div class="column hvr-grow" style="width: 308px">
             <img
               src="../images/ScienceAsset.png"
@@ -99,7 +99,7 @@
           </div>
         </a>
         <!-- MATHEMATICS -->
-        <a href="../Math Page/topics_math.html">
+        <a href="../Math Page/result_math.html">
           <div class="column hvr-grow" style="width: 308px">
             <img
               src="../images/MathematicAsset.png"
