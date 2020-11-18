@@ -10,10 +10,14 @@
         function PasswordValue(form) {
 
             if (form.Password.value != form.Confirm_Pass.value) {
-                alert("Please Try Again!. Password does not Match :(");
+                JSalert();
                 form.Password.focus();
                 return false;
             }
+        }
+
+        function JSalert() {
+            swal("Sorry!", "Password and Confirm Password Does Not Match!", "error");
         }
 
 
@@ -185,6 +189,7 @@
     </div>
     </div>
     </div>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 
 </html>
