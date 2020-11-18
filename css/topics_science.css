@@ -6,7 +6,8 @@ body {
 .btn_back {
     top: 20px;
     margin-top: 20px;
-    margin-right: 30px;
+    /* margin-right: 30px; */
+    margin-left: 1300px;
     height: 60px;
     border-radius: 45px;
     border-width: 7px;
@@ -16,33 +17,27 @@ body {
     color: white;
     width: 180px;
     font-size: 30px;
-    float: right;
+    /* float: right; */
     font-family: 'Segoe UI';
     font-weight: bold;
     position: sticky;
     z-index: 1;
     cursor: pointer;
 }
-<<<<<<< HEAD
-.btn_back:hover{
-  background-color:  #450764;
-  -webkit-box-shadow: 9px 13px 17px -3px rgba(0, 0, 0, 0.65);
-box-shadow: 9px 13px 17px -3px rgba(0, 0, 0, 0.65);
-  
+
+.btn_back:hover {
+    background-color: #450764;
+    -webkit-box-shadow: 9px 13px 17px -3px rgba(0, 0, 0, 0.65);
+    box-shadow: 9px 13px 17px -3px rgba(0, 0, 0, 0.65);
 }
 
-
-.lesson{
-  margin-left: -10%;
-=======
-
 .lesson {
-    margin-left: -8.5%;
->>>>>>> 349ff1bad4d49f7ae87ddd7c5eb773b366dffd15
+    margin-left: -8%;
 }
 
 .container {
     height: 1150px;
+    width: 125%;
     background-image: url("../images/Science\ Background.svg");
     background-position: center;
     background-repeat: no-repeat;
@@ -52,9 +47,9 @@ box-shadow: 9px 13px 17px -3px rgba(0, 0, 0, 0.65);
 
 .topics {
     margin: auto;
-    margin-left: 250px;
+    margin-left: 340px;
     width: 65%;
-    padding: 10%;
+    padding: 5%;
 }
 
 .pics {
