@@ -103,3 +103,18 @@ div.b {
     display: flex;
     justify-content: center;
 }
+.format{
+    width: 18rem;
+    text-align: center;
+    margin-top: -1.5px;
+    /* width: 200%; */
+    word-break: break-all; 
+    /* text-indent: 40px; */
+    right: 10%;
+    /* overflow-wrap: break-word; */
+    /* display: inline; */
+}
+.formats{
+    width: 18rem;
+    text-align: center;
+}
