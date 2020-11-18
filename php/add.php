@@ -16,7 +16,15 @@ if(isset($_POST['Submit'])){
     $Username = $_POST['Username'];
     $Password = $_POST['Password'];
 
+    $user_check_query = "SELECT * FROM reg_stud WHERE Username='$Username' LIMIT 1";
+    $result = mysqli_query($mysqli, $user_check_query);
+    $user = mysqli_fetch_assoc($result);
 
+    if ($user) { // Checks if username exists
+        if ($user['Username'] === $Username) {
+        echo "<script>alert('Username Already Exists!'); window.location.href ='http://localhost/Integrate-Project/php/Registration.php'</script>";
+        }
+    }else{
         mysqli_query($mysqli, "INSERT INTO reg_stud (Last_Name,First_Name,Birthday,Age,Guard_Name,Email,Phone_Num,Username,Password) VALUES('$Last_Name','$First_Name','$Birthday','$Age','$Guard_Name','$Email','$Phone_Num','$Username','$Password')");
         $last_id = mysqli_insert_id($mysqli);
         $mysqli->query("INSERT INTO progress (user_id, subject, done, total) VALUES('$last_id','ENGLISH',0,8)");
@@ -25,6 +33,9 @@ if(isset($_POST['Submit'])){
         $mysqli->query("INSERT INTO progress (user_id, subject, done, total) VALUES('$last_id','MATH',0,8)");
         header('Location: http://localhost/Integrate-Project/html/loadingReg.html');
         exit();
+    }
+
+    
           
 }
 ?>

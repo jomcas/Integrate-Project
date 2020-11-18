@@ -12,11 +12,22 @@ if(isset($_POST['update'])){
     $Phone_Num = $_POST['Phone_Num'];
     $Username = $_POST['Username'];
 	
-	//updating the table
-	$result = mysqli_query($mysqli, "UPDATE reg_stud SET Last_Name='$Last_Name',First_Name='$First_Name',Birthday='$Birthday' ,Age='$Age' ,Guard_Name='$Guard_Name' ,Email='$Email' ,Phone_Num='$Phone_Num' ,Username='$Username'WHERE id=$id");
+	$user_check_query = "SELECT * FROM reg_stud WHERE Username='$Username' LIMIT 1";
+    $result = mysqli_query($mysqli, $user_check_query);
+    $user = mysqli_fetch_assoc($result);
+
+    if ($user) { // Checks if username exists
+        if ($user['Username'] === $Username) {
+		echo "<script>alert('Username Already Exists!'); window.location.href ='http://localhost/Integrate-Project/php/edit.php'</script>";
+            
+        }
+    }else{
+        //updating the table
+		$result = mysqli_query($mysqli, "UPDATE reg_stud SET Last_Name='$Last_Name',First_Name='$First_Name',Birthday='$Birthday' ,Age='$Age' ,Guard_Name='$Guard_Name' ,Email='$Email' ,Phone_Num='$Phone_Num' ,Username='$Username'WHERE id=$id");
+		//redirectig to the display page. In our case, it is index.php
+		header("Location: AdminHome.php");
+    }
 	
-	//redirectig to the display page. In our case, it is index.php
-	header("Location: AdminHome.php");
 }
 
 if(isset($_POST['cancel'])){
