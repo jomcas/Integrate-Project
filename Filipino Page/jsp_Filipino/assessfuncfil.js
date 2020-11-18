@@ -127,7 +127,7 @@ function updateAnswerIndicator(markType) {
 
 function next() {
   if (next_page == false) {
-    alert("Please select an option");
+    JSalert();
   } else {
     if (questionCounter === quiz.length) {
       console.log("quiz over");
@@ -137,6 +137,10 @@ function next() {
     }
   }
   next_page = false;
+}
+
+function JSalert() {
+  swal("Sorry!", "Please Pick Your Answer", "error");
 }
 
 function quizOver() {
@@ -167,7 +171,7 @@ function saveToDb() {
   var passingScore = Math.round(quiz.length * 80 * 0.01);
   var status = getScoreStatus(passingScore);
 
-  $.post("../php/connectdb.php", {
+  $.post("../Filipino Page/php/connectdb.php", {
     lesson_name: lesson_name,
     score: correctAnswers,
     passing_score: passingScore,
