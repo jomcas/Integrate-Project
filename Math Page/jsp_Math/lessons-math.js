@@ -52,6 +52,7 @@ if (sessionStorage.getItem("ID") === "1") {
     var subcontent = [
         "A subtracting objects is a kind of subtracting numbers that uses objects like shapes, animals, foods and other related things that can be counted as well. ",
         "A subtracting sentence is like subtracting objects but in this scenario the students will be given a word problem or sentence problem and supported by some images so that it can be easily to understand by the students",
+        "The number in a subtraction sentence from which we subtract another number is called a minuend. A subtraction sentence consists of 3 numbers Minuend, Subtrahend and Difference Minuend is the first number in a subtraction sentence. We subtract subtrahend from the minuend to get the difference",
         "A subtraction with regrouping is a process of exchanging one’s and tens into ten ones. We use regrouping in subtraction when the minuend is smaller than the subtrahend",
         "A subtraction without regrouping is like a normal subtraction, no borrowing of numbers and no regrouping of numbers. ",
     ];
