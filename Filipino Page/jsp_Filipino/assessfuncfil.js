@@ -190,20 +190,15 @@ function getScoreStatus(passingScore) {
 
 function start() {
     if(sessionStorage.getItem("ID")==1){
-        quiz=assessfil1;
-        lesson_name = "Alpabetong Filipino";
+        quiz=assessfil1
     }else if(sessionStorage.getItem("ID")==2){
         quiz=assessfil2;
-        lesson_name = "Pagbuo ng Bagong Salita";
     }else if(sessionStorage.getItem("ID")==3){
         quiz=assessfil3; 
-        lesson_name = "Buwan at Araw";
     }else if(sessionStorage.getItem("ID")==4){
         quiz=assessfil4;
-        lesson_name = "Mga Kulay At Hugis";
     }else if(sessionStorage.getItem("ID")==5){
         quiz=assessfil5;
-        lesson_name = "Uri ng Prutas";
     }
     // hide home box
 

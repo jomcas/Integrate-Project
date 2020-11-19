@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php session_start(); ?>
 
 <head>
     <meta charset="utf-8">
@@ -16,26 +15,25 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="shortcut icon" href="../images/logo.png" type="image/png">
 
-    <link rel="stylesheet" href="../css/result_science.css">
+    <link rel="stylesheet" href="../css/result_english.css">
 
 
 </head>
 
 <body>
     <?php
-    echo $_SESSION['id'];
         $servername = "localhost";
         $username = "root";
         $password = "";
+        // $dbname = "db_integ"; database name ko 
         $dbname = "integratives";
-        $user_id = $_SESSION['id'];
 
         $conn = new mysqli($servername, $username, $password, $dbname); // Create connection
         if ($conn->connect_error) {     // Check connection
             die("Connection failed: " . $conn->connect_error);
         } 
 
-        $sql = "SELECT * FROM science_table WHERE `user_fk`='" .$user_id. "'";
+        $sql = "SELECT CONCAT(Score,'/',No_Items) AS totalScore, id, Lesson_Name, Status FROM english_table";
         $result = $conn->query($sql);
     ?>
 
@@ -47,7 +45,7 @@
         <div class="table-title">
             <div class="row">
                 <div>
-                    <p>Science Results</p>
+                    <p>English Results</p>
                 </div>
             </div>
         </div>
@@ -55,9 +53,8 @@
             <thead>
                 <tr>
                     <th>Lesson</th>
-                    <th>Scores</th>
-                    <th>Passing Score</th>
-                    <th>No_Items</th>
+                    <th>Topics</th>
+                    <th>Score</th>
                     <th>Status</th>
                 </tr>
             </thead>
@@ -67,10 +64,9 @@
             // Populate Table
             while($row = $result->fetch_assoc()) {
                     echo '<tr>';
+                    echo '<td>' .$row['id']. '</td>';
                     echo '<td>' .$row['Lesson_Name']. '</td>';
-                    echo '<td>' .$row['Score']. '</td>';
-                    echo '<td>' .$row['Passing_Score']. '</td>';
-                    echo '<td>' .$row['No_Items']. '</td>';
+                    echo '<td>' .$row['totalScore']. '</td>';
                     echo "<td><span class='label label-success' style='background-color: #332393;'>" .$row['Status']. '</td>';
             }
 
@@ -80,7 +76,7 @@
             </tbody>
         </table>
     </div>
-    <script src="javascript.js"></script>
+    <!-- <script src="../javascript.js"></script> -->
 
 </body>
 

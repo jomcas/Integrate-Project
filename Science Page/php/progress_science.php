@@ -36,7 +36,7 @@ $percentage = ($done / $total) * 100;
     <h3>Percentage: <?= $percentage ?> % </h3>
 
     <div class="container">
-        <a href="../..//html/subject_progress.html">
+    <a href="../../html/subject_progress.html">
             <button class="btn_back">BACK</button>
         </a>
 

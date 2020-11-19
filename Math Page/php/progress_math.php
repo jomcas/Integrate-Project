@@ -35,7 +35,7 @@ $percentage = ($done / $total) * 100;
     <h3>Percentage: <?= $percentage ?> % </h3>
 
     <div class="container">
-        <a href="../..//html/subject_progress.html">
+    <a href="../../html/subject_progress.html">
             <button class="btn_back">BACK</button>
         </a>
 
@@ -52,7 +52,7 @@ $percentage = ($done / $total) * 100;
 
         <div class="circle<?=$i?>" onclick="showID(<?=$i?>)">
             <!-- make assets for math circ  -->
-            <img src="../../images/english_circ<?=$i?>.svg" alt="" class="circle" id="circle">
+            <img src="../../images/circ<?=$i?>.svg" alt="" class="circle" id="circle">
         </div>
 
     <!-- locked -->
